@@ -1,5 +1,21 @@
 ## Board v0.1-revA
 
+## Current Hardware Revision
+
+Current features:
+
+- 14/16/20-pin support
+- 3.3V and 5V DUT support
+- MCP23017 UI subsystem
+- RGB status LED
+- passive buzzer
+- USB serial output
+- optional OLED support
+
+Status:
+
+- PCB ordered / in bring-up
+- 
 ## Current limitations
 
 - No automatic current limiting yet
