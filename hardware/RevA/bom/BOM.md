@@ -40,7 +40,7 @@
 | 2.2k resistor | 1 | Base resistor |
 | 100k resistor | 1 | Pulldown |
 | 330R resistor | 3 | RGB LED |
-| 10k resistor | 1 | reset pullup |
+| 10k resistor | 1 | Reset Pullup |
 | 100nF capacitor | 4 | Decoupling |
 | 10uF capacitor | 1 | Bulk filtering |
 
