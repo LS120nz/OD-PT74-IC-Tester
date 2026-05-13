@@ -1,5 +1,8 @@
 # Pico 74xx IC Tester
 
+![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
+![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
+
 A Raspberry Pi Pico-based tester for common 74xx-series DIP logic ICs.
 
 This project was designed as a practical bench tool for checking suspect 74LS, 74HC, 74HCT, 74LVD, and related logic ICs used in retro computer and electronics projects.
