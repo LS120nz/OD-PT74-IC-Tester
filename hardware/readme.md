@@ -15,7 +15,8 @@ Current features:
 Status:
 
 - PCB ordered / in bring-up
-- 
+---
+ 
 ## Current limitations
 
 - No automatic current limiting yet
@@ -23,6 +24,7 @@ Status:
 - No sequential logic support yet
 - No auto IC identification yet
 ---
+
 ## Board v0.1-revB
 
 ## Planned features
