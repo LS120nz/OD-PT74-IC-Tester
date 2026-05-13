@@ -6,7 +6,7 @@
 |---|---|---:|---|
 | U2 | Raspberry Pi Pico | 1 | RP2040 module |
 | U1 | MCP23017 | 1 | I2C GPIO expander |
-| U3-Ux | BAT54S | x | GPIO clamp protection |
+| D1-D20 | BAT54S | 20 | GPIO clamp protection |
 | Q1 | 2N3904 | 1 | Buzzer driver |
 | BZ1 | 1407 passive piezo buzzer | 1 | Passive type |
 
@@ -36,12 +36,13 @@
 
 | Value | Qty | Notes |
 |---|---:|---|
-| 4.7k resistor | x | GPIO protection |
-| 1k resistor | x | Base resistor |
-| 100k resistor | x | Pulldown |
-| 330R resistor | x | RGB LED |
-| 100nF capacitor | x | Decoupling |
-| 10uF capacitor | x | Bulk filtering |
+| 4.7k resistor | 22 | GPIO protection |
+| 2.2k resistor | 1 | Base resistor |
+| 100k resistor | 1 | Pulldown |
+| 330R resistor | 3 | RGB LED |
+| 10k resistor | 1 | reset pullup |
+| 100nF capacitor | 4 | Decoupling |
+| 10uF capacitor | 1 | Bulk filtering |
 
 ---
 
