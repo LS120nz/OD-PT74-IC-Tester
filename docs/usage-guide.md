@@ -2,7 +2,7 @@
 
 ---
 
-# Overview
+## Overview
 
 The Pico 74xx IC Tester is a Raspberry Pi Pico-based bench tool for testing common DIP 74xx-series logic ICs.
 
@@ -24,9 +24,9 @@ The tester is intended for checking:
 
 ---
 
-# Safety Notes
+## Safety Notes
 
-## Important
+### Important
 
 - Never insert or remove ICs while powered if possible.
 - Always select the correct package size before testing.
@@ -36,13 +36,11 @@ The tester is intended for checking:
 
 ---
 
-# Controls
+## Controls
 
-## Package Selector
+### Package Selector
 
 Selects the active power and ground pins for the ZIF socket.
-
-### Positions
 
 | Position | Package |
 |---|---|
@@ -54,11 +52,9 @@ The tester automatically detects the selected package.
 
 ---
 
-## Voltage Selector
+### Voltage Selector
 
 Selects DUT (Device Under Test) voltage.
-
-### Positions
 
 | Position | Voltage |
 |---|---|
@@ -70,19 +66,19 @@ The tester automatically detects the selected voltage.
 
 ---
 
-## Buttons
+### Buttons
 
-### NEXT
+#### NEXT
 
 Cycles through supported IC types.
 
-### TEST
+#### TEST
 
 Runs the currently selected IC test.
 
 ---
 
-# RGB LED Status
+## RGB LED Status
 
 | LED State | Meaning |
 |---|---|
@@ -96,9 +92,9 @@ Runs the currently selected IC test.
 
 ---
 
-# ZIF Socket Usage
+## ZIF Socket Usage
 
-## Important
+### Important
 
 All ICs are inserted aligned to the top of the ZIF socket.
 
@@ -106,7 +102,7 @@ Pin 1 must always match the Pin 1 marking on the PCB.
 
 ---
 
-## 14-pin IC placement
+### 14-pin IC placement
 
 Insert the IC into the top 14 socket positions.
 
@@ -118,3 +114,4 @@ Top of socket
 │ 14-pin IC   │
 │■■■■■■■■■■■■■│
 └─────────────┘
+```
