@@ -2,7 +2,7 @@
 
 A Raspberry Pi Pico-based tester for common 74xx-series DIP logic ICs.
 
-This project was designed as a practical bench tool for checking suspect 74LS, 74HC, 74HCT, and related logic ICs used in retro computer and electronics projects.
+This project was designed as a practical bench tool for checking suspect 74LS, 74HC, 74HCT, 74LVD, and related logic ICs used in retro computer and electronics projects.
 
 ## Features
 
