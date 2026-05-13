@@ -8,4 +8,5 @@ This project was designed as a practical bench tool for checking suspect 74LS, 7
 
 --
 Hardware: CERN-OHL-S v2
+
 Firmware/docs: MIT
