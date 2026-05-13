@@ -5,6 +5,7 @@
 # Supported ICs
 
 ## Rev A Initial Firmware
+---
 
 | IC | Function | Package | Status |
 |---|---|---:|---|
