@@ -32,7 +32,7 @@ Rev A boards are currently in bring-up.
 ## Hardware
 See:
 
-text
+---text
 hardware/revA/
 ---
 
