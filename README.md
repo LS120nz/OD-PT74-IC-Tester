@@ -30,13 +30,10 @@ Rev A boards are currently in bring-up.
 - [Rev B Roadmap](docs/rev-b-roadmap.md)
 
 ## Hardware
-
 See:
 
-```
 text
 hardware/revA/
-
 ---
 
 Hardware: CERN-OHL-S v2
