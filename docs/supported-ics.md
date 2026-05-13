@@ -3,6 +3,7 @@
 
 ```markdown
 # Supported ICs
+---
 
 ## Rev A Initial Firmware
 ---
@@ -15,6 +16,7 @@
 | 7408 | Quad 2-input AND | 14-pin | Planned / Testing |
 | 7432 | Quad 2-input OR | 14-pin | Planned / Testing |
 | 7486 | Quad 2-input XOR | 14-pin | Planned / Testing |
+---
 
 ## Planned Later
 
@@ -28,3 +30,4 @@
 | 74245 | Octal bus transceiver | 20-pin |
 | 74373 | Octal latch | 20-pin |
 | 74374 | Octal D flip-flop | 20-pin |
+---
