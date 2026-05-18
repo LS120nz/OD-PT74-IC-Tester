@@ -34,7 +34,7 @@ Rev A bring-up fixes discovered:
 - BAT54S clamp orientation corrected
 - ZIF series resistors changed to 1k
 - I2C moved to GPIO26/GPIO27
-- V_OUT simplified to ZIF20
+- V_OUT simplified to permanent ZIF20 routing
 - Corrected 14-pin package mapping
 
 Next steps:
