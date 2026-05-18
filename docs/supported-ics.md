@@ -8,19 +8,19 @@
 
 ## Rev A Initial Firmware
 
-| IC   | Function               | Package | Status            |
-|------|------------------------|---------|-------------------|
-| 7400 | Quad 2-input NAND      | 14-pin  | Working           |
-| 7402 | Quad 2-input NOR       | 14-pin  | Working           |
-| 7403 | Quad 2-input NAND OC   | 14-pin  | Working           |
-| 7404 | Hex inverter           | 14-pin  | Planned / Testing |
-| 7405 | Hex inverter OC        | 14-pin  | Working           |
-| 7406 | Hex inverter/driver OC | 14-pin  | Working           |
-| 7407 | Hex buffer / driver OC | 14-pin  | Working           |
-| 7408 | Quad 2-input AND       | 14-pin  | Planned / Testing |
-| 7410 | Triple 3-input NAND    | 14-pin  | Working           |
-| 7432 | Quad 2-input OR        | 14-pin  | Planned / Testing |
-| 7486 | Quad 2-input XOR       | 14-pin  | Planned / Testing |
+| IC   | Function               | Package | Status                 |
+|------|------------------------|---------|------------------------|
+| 7400 | Quad 2-input NAND      | 14-pin  | Working                |
+| 7402 | Quad 2-input NOR       | 14-pin  | Working                |
+| 7403 | Quad 2-input NAND OC   | 14-pin  | Working                |
+| 7404 | Hex inverter           | 14-pin  | Implemented / Untested |
+| 7405 | Hex inverter OC        | 14-pin  | Working                |
+| 7406 | Hex inverter/driver OC | 14-pin  | Working                |
+| 7407 | Hex buffer / driver OC | 14-pin  | Working                |
+| 7408 | Quad 2-input AND       | 14-pin  | Implemented / Untested |
+| 7410 | Triple 3-input NAND    | 14-pin  | Working                |
+| 7432 | Quad 2-input OR        | 14-pin  | Implemented / Untested |
+| 7486 | Quad 2-input XOR       | 14-pin  | Implemented / Untested |
 
 ---
 
