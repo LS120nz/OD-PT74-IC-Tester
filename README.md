@@ -21,8 +21,6 @@ This project was designed as a practical bench tool for checking suspect 74LS, 7
 
 ## Current status
 
-## Current status
-
 Rev A hardware has successfully passed initial 74HC02 NOR gate testing.
 
 Confirmed working:
