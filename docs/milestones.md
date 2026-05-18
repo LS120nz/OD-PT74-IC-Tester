@@ -1,3 +1,9 @@
-revA-open-collector-working
+# Project Milestones
 
-Add open-collector IC support and validate HC03/05/06/07
+## revA-open-collector-working
+
+Added open-collector IC support and validated:
+- HC03
+- HC05
+- HC06
+- HC07
