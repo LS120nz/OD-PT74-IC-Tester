@@ -21,7 +21,28 @@ This project was designed as a practical bench tool for checking suspect 74LS, 7
 
 ## Current status
 
-Rev A boards are currently in bring-up.
+## Current status
+
+Rev A hardware has successfully passed initial 74HC02 NOR gate testing.
+
+Confirmed working:
+- RP2040 GPIO ↔ ZIF routing
+- MCP23017 I2C interface
+- 14-pin package mapping
+- DUT voltage switching
+- Logic test framework
+
+Rev A bring-up fixes discovered:
+- BAT54S clamp orientation corrected
+- ZIF series resistors changed to 1k
+- I2C moved to GPIO26/GPIO27
+- V_OUT simplified to ZIF20
+- Corrected 14-pin package mapping
+
+Next steps:
+- Validate additional 74xx IC families
+- Complete Rev B schematic cleanup
+- Add OLED support and expanded diagnostics
 
 ## Documentation
 
