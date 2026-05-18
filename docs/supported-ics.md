@@ -14,6 +14,7 @@
 | 7402 | Quad 2-input NOR     | 14-pin  | Working           |
 | 7404 | Hex inverter         | 14-pin  | Planned / Testing |
 | 7408 | Quad 2-input AND     | 14-pin  | Planned / Testing |
+| 7410 | Triple 3-input NAND  | 14-pin  | Working           |
 | 7432 | Quad 2-input OR      | 14-pin  | Planned / Testing |
 | 7486 | Quad 2-input XOR     | 14-pin  | Planned / Testing |
 
