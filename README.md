@@ -22,7 +22,9 @@ This project was designed as a practical bench tool for checking suspect 74LS, 7
 ## Current status
 
 Rev A hardware has successfully passed initial 74HC02 NOR gate testing.
+
 revA-open-collector-working
+
 Add open-collector IC support and validate HC03/05/06/07
 
 Confirmed working:
