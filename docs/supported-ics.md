@@ -10,8 +10,8 @@
 
 | IC   | Function             | Package | Status            |
 |------|----------------------|---------|-------------------|
-| 7400 | Quad 2-input NAND    | 14-pin  | Planned / Testing |
-| 7402 | Quad 2-input NOR     | 14-pin  | Planned / Testing |
+| 7400 | Quad 2-input NAND    | 14-pin  | Working           |
+| 7402 | Quad 2-input NOR     | 14-pin  | Working           |
 | 7404 | Hex inverter         | 14-pin  | Planned / Testing |
 | 7408 | Quad 2-input AND     | 14-pin  | Planned / Testing |
 | 7432 | Quad 2-input OR      | 14-pin  | Planned / Testing |
