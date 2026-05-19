@@ -20,14 +20,14 @@
 | 74HC08  | Quad 2-input AND                       | 14-pin  | Implemented / Untested |
 | 74HC10  | Triple 3-input NAND                    | 14-pin  | Working                |
 | 74HC14  | Hex Schmitt inverter                   | 14-pin  | Working                |
-| 74HC21  | Dual 4-input AND                       | 14-pin  | Planned / Testing      |
-| 74HC30  | 8-input NAND                           | 14-pin  | Planned / Testing      |
+| 74HC21  | Dual 4-input AND                       | 14-pin  | Working                |
+| 74HC30  | 8-input NAND                           | 14-pin  | Working                |
 | 74HC32  | Quad 2-input OR                        | 14-pin  | Implemented / Untested |
 | 74HC74  | Dual D flip-flop                       | 14-pin  | Planned Later          |
 | 74HC86  | Quad 2-input XOR                       | 14-pin  | Implemented / Untested |
 | 74HC125 | Quad tri-state buffer                  | 14-pin  | Planned / Testing      |
 | 74HC126 | Quad tri-state buffer                  | 14-pin  | Planned / Testing      |
-| 74HC132 | Quad Schmitt NAND                      | 14-pin  | Planned / Testing      |
+| 74HC132 | Quad Schmitt NAND                      | 14-pin  | Working                |
 | 74HC164 | 8-bit shift register                   | 14-pin  | Planned Later          |
 | 74HC393 | Dual binary counter                    | 14-pin  | Planned Later          |
 |         |                                        |         |                        |
