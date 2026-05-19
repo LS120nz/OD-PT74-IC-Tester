@@ -19,7 +19,7 @@
 | 74HC07  | Hex buffer / driver OC                 | 14-pin  | Working                |
 | 74HC08  | Quad 2-input AND                       | 14-pin  | Implemented / Untested |
 | 74HC10  | Triple 3-input NAND                    | 14-pin  | Working                |
-| 74HC14  | Hex Schmitt inverter                   | 14-pin  | Planned / Testing      |
+| 74HC14  | Hex Schmitt inverter                   | 14-pin  | Working                |
 | 74HC21  | Dual 4-input AND                       | 14-pin  | Planned / Testing      |
 | 74HC30  | 8-input NAND                           | 14-pin  | Planned / Testing      |
 | 74HC32  | Quad 2-input OR                        | 14-pin  | Implemented / Untested |
