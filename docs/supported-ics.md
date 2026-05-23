@@ -40,7 +40,7 @@
 | 74HC595 | Serial-in parallel-out shift register  | 16-pin  | Planned Later          |
 |         |                                        |         |                        |
 | 74HC244 | Octal buffer                           | 20-pin  | Working                |
-| 74HC245 | Octal bus transceiver                  | 20-pin  | Planned Later          |
+| 74HC245 | Octal bus transceiver                  | 20-pin  | Working                |
 | 74HC273 | Octal D flip-flop                      | 20-pin  | Planned Later          |
 | 74HC373 | Octal latch                            | 20-pin  | Planned Later          |
 | 74HC374 | Octal D flip-flop                      | 20-pin  | Planned Later          |
