@@ -26,7 +26,7 @@
 | 74HC74  | Dual D flip-flop                       | 14-pin  | Planned Later          |
 | 74HC86  | Quad 2-input XOR                       | 14-pin  | Implemented / Untested |
 | 74HC125 | Quad tri-state buffer                  | 14-pin  | Working                |
-| 74HC126 | Quad tri-state buffer                  | 14-pin  | Planned / Testing      |
+| 74HC126 | Quad tri-state buffer                  | 14-pin  | Working                |
 | 74HC132 | Quad Schmitt NAND                      | 14-pin  | Working                |
 | 74HC164 | 8-bit shift register                   | 14-pin  | Planned Later          |
 | 74HC393 | Dual binary counter                    | 14-pin  | Planned Later          |
@@ -39,7 +39,7 @@
 | 74HC174 | Hex D flip-flop                        | 16-pin  | Planned Later          |
 | 74HC595 | Serial-in parallel-out shift register  | 16-pin  | Planned Later          |
 |         |                                        |         |                        |
-| 74HC244 | Octal buffer                           | 20-pin  | Planned Later          |
+| 74HC244 | Octal buffer                           | 20-pin  | Working                |
 | 74HC245 | Octal bus transceiver                  | 20-pin  | Planned Later          |
 | 74HC273 | Octal D flip-flop                      | 20-pin  | Planned Later          |
 | 74HC373 | Octal latch                            | 20-pin  | Planned Later          |
