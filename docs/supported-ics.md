@@ -28,10 +28,10 @@
 | 74HC125 | Quad tri-state buffer                  | 14-pin  | Working                |
 | 74HC126 | Quad tri-state buffer                  | 14-pin  | Working                |
 | 74HC132 | Quad Schmitt NAND                      | 14-pin  | Working                |
-| 74HC164 | 8-bit shift register                   | 14-pin  | Planned Later          |
+| 74HC164 | 8-bit shift register                   | 14-pin  | Working                |
 | 74HC393 | Dual binary counter                    | 14-pin  | Planned Later          |
 |         |                                        |         |                        |
-| 74HC138 | 3-to-8 decoder                         | 16-pin  | Planned Later          |
+| 74HC138 | 3-to-8 decoder                         | 16-pin  | Working                |
 | 74HC139 | Dual 2-to-4 decoder                    | 16-pin  | Working                |
 | 74HC157 | Quad 2:1 multiplexer                   | 16-pin  | Planned Later          |
 | 74HC163 | 4-bit counter                          | 16-pin  | Planned Later          |
