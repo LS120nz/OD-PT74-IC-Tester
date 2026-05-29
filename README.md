@@ -1,5 +1,5 @@
 # Pico 74xx IC Tester
-!(images/asembled.jpg)
+(images/asembled.jpg)
 ---
 ![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
 ![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
