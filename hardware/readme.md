@@ -14,7 +14,9 @@ Current features:
 
 Status:
 
-- PCB ordered / in bring-up
+- PCB-Rev_A ordered / De-bug and fixed.
+- selection of 14/16/20 pin ics tested.
+- PCB-Rev_B to b e ordered / tested
 ---
  
 ## Current limitations
@@ -24,8 +26,6 @@ Status:
 - No sequential logic support yet
 - No auto IC identification yet
 ---
-
-## Board v0.1-revB
 
 ## Planned features
 
