@@ -16,7 +16,7 @@
 
 | Ref | Part | Qty | Notes |
 |---|---|---:|---|
-| SW1 | 2P3T rotary/package switch | 1 | 14/16/20-pin select |
+| SW1 | 3P4T rotary/package switch | 1 | 14/16/20-pin select |
 | SW3 | DP3T ON-OFF-ON switch | 1 | 3.3V/OFF/5V |
 | SW4 | Pushbutton | 1 | NEXT |
 | SW5 | Pushbutton | 1 | TEST |
