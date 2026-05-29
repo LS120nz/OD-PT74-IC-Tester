@@ -8,7 +8,7 @@ Current features:
 - 3.3V and 5V DUT support
 - MCP23017 UI subsystem
 - RGB status LED
-- passive buzzer
+- Active buzzer
 - USB serial output
 - optional OLED support
 
