@@ -1,12 +1,13 @@
 # Pico 74xx IC Tester
 ![Pico 74xx IC Tester](images/assembled.jpg)
+*Rev A prototype during hardware validation and firmware bring-up.*
 ---
 ![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
 ![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
 
-A Raspberry Pi Pico-based tester for common 74xx-series DIP logic ICs.
+A Raspberry Pi Pico based tester for 74xx-series logic ICs.
 
-This project was designed as a practical bench tool for checking suspect 74LS, 74HC, 74HCT, 74LVD, and related logic ICs used in retro computer and electronics projects.
+Designed as a practical bench instrument for testing 74LS, 74HC, 74HCT and compatible logic devices used in retro-computing, repair, and electronics projects. The tester supports 14-pin, 16-pin and 20-pin DIP devices, automatic package detection, OLED status display, and a growing library of validated IC tests.
 
 ## Features
 
@@ -20,28 +21,48 @@ This project was designed as a practical bench tool for checking suspect 74LS, 7
 - USB terminal output
 - Optional OLED output
 
-## Current status
+## Current Status
 
-Rev A hardware has successfully passed initial 74HC02 NOR gate testing.
+Rev A hardware has been assembled and validated.
 
-Confirmed working:
-- RP2040 GPIO ↔ ZIF routing
-- MCP23017 I2C interface
-- 14-pin package mapping
-- DUT voltage switching
-- Logic test framework
+### Verified Hardware
 
-Rev A bring-up fixes discovered:
-- BAT54S clamp orientation corrected
-- ZIF series resistors changed to 1k
-- I2C moved to GPIO26/GPIO27
-- V_OUT simplified to permanent ZIF20 routing
-- Corrected 14-pin package mapping
+- RP2040 Pico controller
+- MCP23017 I/O expander
+- 20-pin ZIF socket interface
+- 14-pin, 16-pin and 20-pin package support
+- 3.3V / OFF / 5V DUT voltage selection
+- SSD1306 128×64 OLED display
+- Rotary encoder interface
+- TEST and NEXT pushbuttons
+- RGB status LED
+- Buzzer
+- Shared I²C bus (MCP23017 + OLED)
 
-Next steps:
-- Validate additional 74xx IC families
-- Complete Rev B schematic cleanup
-- Add OLED support and expanded diagnostics
+### Verified IC Families
+
+- Logic gates
+- Decoders
+- Counters
+- Registers
+- Latches
+- Shift registers
+
+### Status
+
+Rev A validation complete.
+
+## Rev B Development
+
+Current work includes:
+
+- Self-powered operation
+- On-board 5V / 3.3V regulation
+- OLED user interface
+- Two-board mechanical design
+- 3D printed enclosure
+- Improved front-panel ergonomics
+- enhanced selectable tests for ic's
 
 ## Documentation
 
