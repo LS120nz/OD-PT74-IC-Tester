@@ -1,4 +1,3 @@
-
 ## docs/supported-ics.md starter
 
 ```markdown
