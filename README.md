@@ -49,11 +49,13 @@ Rev A hardware has been assembled and validated.
 - Shift registers
 
 ### Status
+
 ## Project Status
 
 **Status:** Active Development
 
 - Rev A: Hardware validated
+- Rev B: In development
 - Firmware: Active expansion of supported IC library
   
 ## Rev B Development
