@@ -1,49 +1,70 @@
-## docs/supported-ics.md starter
-
-```markdown
 # Supported ICs
 
----
+## Verified Devices
 
-## Rev A Initial Firmware
+These devices have been tested on real hardware and are known to pass.
 
-| IC      | Function                               | Package | Status                 |
-|---------|----------------------------------------|---------|------------------------|
-| 74HC00  | Quad 2-input NAND                      | 14-pin  | Working                |
-| 74HC02  | Quad 2-input NOR                       | 14-pin  | Working                |
-| 74HC03  | Quad 2-input NAND OC                   | 14-pin  | Working                |
-| 74HC04  | Hex inverter                           | 14-pin  | Implemented / Untested |
-| 74HC05  | Hex inverter OC                        | 14-pin  | Working                |
-| 74HC06  | Hex inverter/driver OC                 | 14-pin  | Working                |
-| 74HC07  | Hex buffer / driver OC                 | 14-pin  | Working                |
-| 74HC08  | Quad 2-input AND                       | 14-pin  | Implemented / Untested |
-| 74HC10  | Triple 3-input NAND                    | 14-pin  | Working                |
-| 74HC14  | Hex Schmitt inverter                   | 14-pin  | Working                |
-| 74HC21  | Dual 4-input AND                       | 14-pin  | Working                |
-| 74HC30  | 8-input NAND                           | 14-pin  | Working                |
-| 74HC32  | Quad 2-input OR                        | 14-pin  | Implemented / Untested |
-| 74HC74  | Dual D flip-flop                       | 14-pin  | Planned Later          |
-| 74HC86  | Quad 2-input XOR                       | 14-pin  | Implemented / Untested |
-| 74HC125 | Quad tri-state buffer                  | 14-pin  | Working                |
-| 74HC126 | Quad tri-state buffer                  | 14-pin  | Working                |
-| 74HC132 | Quad Schmitt NAND                      | 14-pin  | Working                |
-| 74HC164 | 8-bit shift register                   | 14-pin  | Working                |
-| 74HC393 | Dual binary counter                    | 14-pin  | Working                |
-|         |                                        |         |                        |
-| 74HC138 | 3-to-8 decoder                         | 16-pin  | Working                |
-| 74HC139 | Dual 2-to-4 decoder                    | 16-pin  | Working                |
-| 74HC157 | Quad 2:1 multiplexer                   | 16-pin  | Planned Later          |
-| 74HC163 | 4-bit counter                          | 16-pin  | basic count verified, full test pending          |
-| 74HC165 | 8-bit PISO shift register              | 16-pin  | Working                |
-| 74HC174 | Hex D flip-flop                        | 16-pin  | Working                |
-| 74HC595 | Serial-in parallel-out shift register  | 16-pin  | Working                |
-|         |                                        |         |                        |
-| 74HC244 | Octal buffer                           | 20-pin  | Working                |
-| 74HC245 | Octal bus transceiver                  | 20-pin  | Working                |
-| 74HC273 | Octal D flip-flop                      | 20-pin  | Working                |
-| 74HC373 | Octal latch                            | 20-pin  | Working                |
-| 74HC374 | Octal D flip-flop                      | 20-pin  | Working                |
-| 74HC573 | Octal latch                            | 20-pin  | Working                |
-| 74HC574 | Octal D flip-flop                      | 20-pin  | Working                |
+### 14-pin Devices
 
----
+| IC      | Function                 | Status   |
+| ------- | ------------------------ | -------- |
+| 74HC00  | Quad 2-input NAND        | Verified |
+| 74HC02  | Quad 2-input NOR         | Verified |
+| 74HC03  | Quad 2-input NAND OC     | Verified |
+| 74HC05  | Hex inverter OC          | Verified |
+| 74HC06  | Hex inverter / driver OC | Verified |
+| 74HC07  | Hex buffer / driver OC   | Verified |
+| 74HC10  | Triple 3-input NAND      | Verified |
+| 74HC14  | Hex Schmitt inverter     | Verified |
+| 74HC21  | Dual 4-input AND         | Verified |
+| 74HC30  | 8-input NAND             | Verified |
+| 74HC125 | Quad tri-state buffer    | Verified |
+| 74HC126 | Quad tri-state buffer    | Verified |
+| 74HC132 | Quad Schmitt NAND        | Verified |
+| 74HC164 | 8-bit shift register     | Verified |
+| 74HC393 | Dual binary counter      | Verified |
+
+### 16-pin Devices
+
+| IC      | Function                              | Status               |
+| ------- | ------------------------------------- | -------------------- |
+| 74HC138 | 3-to-8 decoder                        | Verified             |
+| 74HC139 | Dual 2-to-4 decoder                   | Verified             |
+| 74HC163 | 4-bit counter                         | Basic count verified |
+| 74HC165 | 8-bit PISO shift register             | Verified             |
+| 74HC174 | Hex D flip-flop                       | Verified             |
+| 74HC595 | Serial-in parallel-out shift register | Verified             |
+
+### 20-pin Devices
+
+| IC      | Function              | Status   |
+| ------- | --------------------- | -------- |
+| 74HC244 | Octal buffer          | Verified |
+| 74HC245 | Octal bus transceiver | Verified |
+| 74HC273 | Octal D flip-flop     | Verified |
+| 74HC373 | Octal latch           | Verified |
+| 74HC374 | Octal D flip-flop     | Verified |
+| 74HC573 | Octal latch           | Verified |
+| 74HC574 | Octal D flip-flop     | Verified |
+
+## Implemented but Not Yet Hardware Verified
+
+| IC     | Function         |
+| ------ | ---------------- |
+| 74HC04 | Hex inverter     |
+| 74HC08 | Quad 2-input AND |
+| 74HC32 | Quad 2-input OR  |
+| 74HC86 | Quad 2-input XOR |
+
+## Planned Devices
+
+| IC      | Function             |
+| ------- | -------------------- |
+| 74HC74  | Dual D flip-flop     |
+| 74HC157 | Quad 2:1 multiplexer |
+
+## Notes
+
+* Verified devices have been tested on physical hardware.
+* Implemented devices have firmware support but have not yet been validated with a physical IC.
+* Additional 74LS, 74HCT and compatible devices will be added as testing continues.
