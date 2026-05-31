@@ -19,7 +19,7 @@ Designed as a practical bench instrument for testing 74LS, 74HC, 74HCT and compa
 - GPIO protection using series resistors and clamp diodes
 - MCP23017 I/O expander for buttons, switch sensing, RGB LED, and buzzer
 - USB terminal output
-- Optional OLED output
+- SSD1306 128×64 OLED display
 
 ## Current Status
 
@@ -41,14 +41,14 @@ Rev A hardware has been assembled and validated.
 
 ### Verified IC Families
 
+18+ ICs validated across:
+
 - Logic gates
 - Decoders
 - Counters
 - Registers
 - Latches
 - Shift registers
-
-### Status
 
 ## Project Status
 
@@ -68,7 +68,8 @@ Current work includes:
 - Two-board mechanical design
 - 3D printed enclosure
 - Improved front-panel ergonomics
-- enhanced selectable tests for ic's
+- Expanded device-specific test routines
+- Improved interactive test selection
 
 ## Documentation
 
@@ -80,12 +81,13 @@ Current work includes:
 - [Rev B Roadmap](docs/rev-b-roadmap.md)
 
 ## Hardware
+
 See:
 
----text
+```text
 hardware/revA/
-
----
+hardware/revB/
+```
 
 Hardware: CERN-OHL-S v2
 
