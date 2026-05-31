@@ -1,13 +1,39 @@
 # Changelog
 
-## Rev B (In Development)
+## v0.1.0 - Rev A Validated
 
-- Added OLED
-- Added standalone power supply
-- Added 2-board architecture
+### Hardware
 
-## Rev A
+* Initial Rev A hardware completed
+* RP2040 Pico controller
+* MCP23017 I/O expander
+* 20-pin ZIF socket
+* 14/16/20 pin package support
+* OLED display support
+* Rotary encoder support
+* RGB LED support
+* Buzzer support
 
-- Initial release
-- MCP23017 support
-- ZIF interface
+### Firmware
+
+* Interactive IC selection
+* Package auto-detection
+* Voltage selection support
+* Initial 74xx device library
+
+### Validation
+
+* Logic gates verified
+* Decoders verified
+* Counters verified
+* Registers verified
+* Latches verified
+* Shift registers verified
+
+### Documentation
+
+* Initial project documentation
+* Build guide
+* Usage guide
+* Supported IC database
+* Rev B roadmap
