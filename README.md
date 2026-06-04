@@ -55,7 +55,8 @@ Rev A hardware has been assembled and validated.
 **Status:** Active Development
 
 - Rev A: Hardware validated
-- Rev B: In development (testing)
+- Rev B: Testing Now.
+- Rev C: In development
 - Firmware: Active expansion of supported IC library
   
 ## Rev B Development
