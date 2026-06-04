@@ -55,21 +55,21 @@ Rev A hardware has been assembled and validated.
 **Status:** Active Development
 
 - Rev A: Hardware validated
-- Rev B: In development
+- Rev B: In development (testing)
 - Firmware: Active expansion of supported IC library
   
 ## Rev B Development
 
 Current work includes:
 
-- Self-powered operation
-- On-board 5V / 3.3V regulation
-- OLED user interface
-- Two-board mechanical design
-- 3D printed enclosure
-- Improved front-panel ergonomics
-- Expanded device-specific test routines
-- Improved interactive test selection
+- Self-powered operation (done)
+- On-board 5V / 3.3V regulation (done)
+- OLED user interface (testing)
+- Two-board mechanical design (done)
+- 3D printed enclosure (devloping)
+- Improved front-panel ergonomics (done rev-b)
+- Expanded device-specific test routines (devloping)
+- Improved interactive test selection (devloping)
 
 ## Documentation
 
