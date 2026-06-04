@@ -63,14 +63,14 @@ Rev A hardware has been assembled and validated.
 
 Current work includes:
 
-- Self-powered operation (done)
-- On-board 5V / 3.3V regulation (done)
-- OLED user interface (testing)
-- Two-board mechanical design (done)
-- 3D printed enclosure (devloping)
-- Improved front-panel ergonomics (done rev-b)
-- Expanded device-specific test routines (devloping)
-- Improved interactive test selection (devloping)
+- Self-powered operation (Done)
+- On-board 5V / 3.3V regulation (Done)
+- OLED user interface (Testing)
+- Two-board mechanical design (Done)
+- 3D printed enclosure (Devloping)
+- Improved front-panel ergonomics (Done for Rev-B)
+- Expanded device-specific test routines (Devloping)
+- Improved interactive test selection (Devloping)
 
 ## Documentation
 
