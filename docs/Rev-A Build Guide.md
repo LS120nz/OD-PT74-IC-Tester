@@ -192,11 +192,11 @@ PASS
 
 ## 5. Known Rev A Issues
 --
-BAT54S clamp diode orientation corrected
-ZIF series resistors changed to 1kΩ
-I²C reassigned to GPIO26/GPIO27
-74163 test routine required additional validation
-OLED SDA/SCL routing corrected during bring-up
+- BAT54S clamp diode orientation corrected
+- ZIF series resistors changed to 1kΩ
+- I²C reassigned to GPIO26/GPIO27
+- 74163 test routine required additional validation
+- OLED SDA/SCL routing corrected during bring-up
 
 ## 6. Validation Results
 ---
@@ -204,14 +204,13 @@ See supported-ics.md for the complete validated device list.
 
 ## 7. Rev A Lessons Learned
 ---
-Need self-powered operation
-Need better front-panel ergonomics
-Need modular UI board
-Need improved OLED integration
+- Need self-powered operation
+- Need better front-panel ergonomics
+- Need modular UI board
+- Need improved OLED integration
 
 ## 8. Validation Complete
 ---
-
 Rev A bring-up is considered successful when:
 - MCP23017 is detected
 - Buttons function correctly
@@ -222,12 +221,10 @@ Rev A bring-up is considered successful when:
 - At least one known-good IC passes testing
 
 ## Post Bring-Up Improvements
-
+---
 Following successful Rev A validation, the following enhancements were added:
-
 - SSD1306 128x64 OLED display
 - Shared I²C bus operation (MCP23017 + OLED)
 - OLED status and test output
 - Additional device test routines
 - Rotary encoder menu system
-- 
