@@ -10,7 +10,6 @@ The primary goals of Rev A were:
 * Validate MCP23017 I/O expander integration
 * Verify 14-pin, 16-pin, and 20-pin IC support
 * Validate 3.3V and 5V DUT operation
-* Test OLED display integration
 * Test rotary encoder user interface
 * Develop and validate device-specific IC test routines
 * Establish a hardware platform for future revisions
@@ -22,7 +21,8 @@ The lessons learned during Rev A development directly led to the design of Rev B
 This guide documents the assembly, bring-up, validation, and known issues of the Rev A hardware.
 
 
-## Bill of Materials (BOM)
+##1. Bill of Materials (BOM)
+---
 
 ### Major Components
 
@@ -44,7 +44,7 @@ This guide documents the assembly, bring-up, validation, and known issues of the
 | 09 | 100nF capacitors |
 | 04 | 330R resistors   |
 | 01 | 10R resistors    |
-| 01 | 2N3904           |
+| 01 | 2N3904 NPN transistor          |
 
 ### Connectors
 
@@ -53,11 +53,11 @@ This guide documents the assembly, bring-up, validation, and known issues of the
 | 2 | Pico header |
 | 1 | OLED header |
 | 1 | IC Power connector and jumper|
-| 1 | IC sence connector and jumper|
+| 1 | IC sense connector and jumper|
 | 1 | selector connector |
 
 
-##3. Assembly Order
+##2. Assembly Order
 ---
 1. Resistors
 2. Diodes
@@ -78,7 +78,7 @@ This guide documents the assembly, bring-up, validation, and known issues of the
 - Install the ZIF socket last to provide the best access to surrounding components.
 - Fit the Pico only after all soldering and continuity checks have been completed.
 
-##4 Pre-Power Checks
+##3. Pre-Power Checks
 ---
 Check for shorts between 3.3V and GND
 Check for shorts between 5V and GND
@@ -87,7 +87,7 @@ Verify Pico orientation
 Verify OLED header orientation
 Verify DUT voltage switch operation
 
-##5 Bring-Up Procedure
+##4. Bring-Up Procedure
 ---
 
 ### A. Flash Firmware
@@ -185,13 +185,13 @@ Expected:
 
 PASS
 
-##6. Known Rev A Issues
+##5. Known Rev A Issues
 --
 BAT54S orientation correction
 1k resistor update
 74163 test routine issue
 
-##7. Validation Results
+##6. Validation Results
 ---
 74HC00 PASS
 74HC02 PASS
@@ -199,17 +199,17 @@ BAT54S orientation correction
 ...
 74HC595 PASS
 
-##8. Rev A Lessons Learned
+##7. Rev A Lessons Learned
 ---
 Need self-powered operation
 Need better front-panel ergonomics
 Need modular UI board
 Need improved OLED integration
 
-## Validation Complete
+##9. Validation Complete
+---
 
 Rev A bring-up is considered successful when:
-
 - MCP23017 is detected
 - Buttons function correctly
 - Encoder functions correctly
