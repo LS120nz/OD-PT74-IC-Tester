@@ -1,5 +1,3 @@
-##1. Overview
----
 # Overview
 
 The Pico 74xx IC Tester is a Raspberry Pi Pico-based bench instrument designed to test common 74xx-series logic ICs used in retro-computing, repair, and electronics projects.
