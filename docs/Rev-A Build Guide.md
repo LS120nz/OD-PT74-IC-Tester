@@ -1,8 +1,28 @@
 ##1. Overview
 ---
-Purpose of Rev A
-What it was used to validate
-Known limitations
+# Overview
+
+The Pico 74xx IC Tester is a Raspberry Pi Pico-based bench instrument designed to test common 74xx-series logic ICs used in retro-computing, repair, and electronics projects.
+
+Rev A was developed as the initial proof-of-concept hardware platform to validate the tester architecture, firmware framework, user interface, and device test routines.
+
+The primary goals of Rev A were:
+
+* Validate RP2040 GPIO control of DUT (Device Under Test) pins
+* Validate MCP23017 I/O expander integration
+* Verify 14-pin, 16-pin, and 20-pin IC support
+* Validate 3.3V and 5V DUT operation
+* Test OLED display integration
+* Test rotary encoder user interface
+* Develop and validate device-specific IC test routines
+* Establish a hardware platform for future revisions
+
+Rev A successfully achieved these objectives and has been validated using a range of logic gates, counters, latches, registers, decoders, and shift-register devices.
+
+The lessons learned during Rev A development directly led to the design of Rev B, which introduces self-powered operation, improved front-panel ergonomics, a two-board architecture, and expanded firmware capabilities.
+
+This guide documents the assembly, bring-up, validation, and known issues of the Rev A hardware.
+
 
 ##2. Required Parts
 ---
