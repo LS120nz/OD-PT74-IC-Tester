@@ -64,31 +64,129 @@ This guide documents the assembly, bring-up, validation, and known issues of the
 3. Capacitors
 4. MCP23017 socket
 5. Headers
-6. OLED header
-7. Buttons
-8. ZIF/Dip socket
-9. Pico
+6. Buttons
+7. OLED header
+9. ZIF/Dip socket
+10. Pico
 
-##4. First Power-Up
----
-10. Check 3.3V
-then Check 5V
-and Check for no shorts
+### Assembly Notes
 
-##5. Bring-Up Procedure
+- Inspect all resistor values before soldering.
+- Verify BAT54S diode orientation carefully.
+- Ensure MCP23017 pin 1 orientation is correct.
+- Verify OLED header pinout before connecting display.
+- Install the ZIF socket last to provide the best access to surrounding components.
+- Fit the Pico only after all soldering and continuity checks have been completed.
+
+##4 Pre-Power Checks
 ---
-Flash firmware
-Check serial terminal
-Verify MCP23017
-Verify OLED
-Verify buttons
-Verify encoder
-Verify RGB LED
-Verify buzzer
+Check for shorts between 3.3V and GND
+Check for shorts between 5V and GND
+Verify MCP23017 orientation
+Verify Pico orientation
+Verify OLED header orientation
+Verify DUT voltage switch operation
+
+##5 Bring-Up Procedure
+---
+
+### A. Flash Firmware
+
+- Connect the Pico via USB.
+- Install the latest firmware.
+- Open a serial terminal.
+
+### B. Verify Serial Output
+
+Expected:
+
+Pico 74xx Tester
+Firmware Version: x.x.x
+
+- Confirm the firmware starts correctly.
+- Confirm no startup errors are reported.
+
+### C. Verify MCP23017
+
+Run the I²C scan.
+
+Expected:
+
+I2C scan: ['0x20']
+
+- MCP23017 should appear at address 0x20.
+
+### D. Verify Buttons
+
+Test:
+
+- TEST button
+- NEXT button
+
+Expected:
+
+Button presses detected correctly.
+
+### E. Verify Rotary Encoder
+
+Test:
+
+- Clockwise rotation
+- Counter-clockwise rotation
+- Encoder push switch
+
+Expected:
+
+Selections change correctly and push-switch is detected.
+
+### F. Verify RGB Status LED
+
+Test:
+
+- Red
+- Green
+- Blue
+
+Expected:
+
+Each colour illuminates correctly.
+
+### G. Verify Buzzer
+
+Run buzzer test.
+
+Expected:
+
+Audible tone is generated.
+
+### H. Verify DUT Voltage Switching
+
+Check:
+
+- OFF position
+- 3.3V position
+- 5V position
+
+Measure DUT VCC with a multimeter.
+
+Expected:
+
+OFF = 0V
+3.3V = approximately 3.3V
+5V = approximately 5V
+
+### I. Verify Known-Good IC
+
+Insert a known-good 74HC02 or 74HC00.
+
+Run the device test.
+
+Expected:
+
+PASS
 
 ##6. Known Rev A Issues
 --
-OLED SDA/SCL originally routed incorrectly
 BAT54S orientation correction
 1k resistor update
 74163 test routine issue
@@ -107,3 +205,24 @@ Need self-powered operation
 Need better front-panel ergonomics
 Need modular UI board
 Need improved OLED integration
+
+## Validation Complete
+
+Rev A bring-up is considered successful when:
+
+- MCP23017 is detected
+- Buttons function correctly
+- Encoder functions correctly
+- RGB LED functions correctly
+- Buzzer functions correctly
+- DUT voltage switching functions correctly
+- At least one known-good IC passes testing
+
+## Post Bring-Up Improvements
+
+Following successful Rev A validation, the following enhancements were added:
+
+- SSD1306 128x64 OLED display
+- Shared I²C bus operation (MCP23017 + OLED)
+- OLED status and test output
+- Additional device test routines
