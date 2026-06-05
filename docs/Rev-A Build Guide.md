@@ -22,17 +22,40 @@ The lessons learned during Rev A development directly led to the design of Rev B
 This guide documents the assembly, bring-up, validation, and known issues of the Rev A hardware.
 
 
-##2. Required Parts
----
-RP2040 Pico
-MCP23017
-20-pin ZIF
-OLED
-Encoder
-Buzzer
-Buttons
-Resistors
-Capacitors
+## Bill of Materials (BOM)
+
+### Major Components
+
+| Qty | Part | Notes |
+|-----|------|-------|
+| 1 | Raspberry Pi Pico | RP2040 module |
+| 1 | MCP23017 | I²C I/O expander |
+| 1 | 20-pin Dip socket | DUT socket |
+| 2 | Pushbuttons | TEST / NEXT |
+| 1 | RGB LED | Status indicator |
+| 1 | Active buzzer | Audible feedback |
+
+### Passive Components
+
+| Qty | Part            |
+|-----|-----------------|
+| 22 | 4.7k resistors   |
+| 03 | 10k resistors    |
+| 09 | 100nF capacitors |
+| 04 | 330R resistors   |
+| 01 | 10R resistors    |
+| 01 | 2N3904           |
+
+### Connectors
+
+| Qty | Part |
+|-----|------|
+| 2 | Pico header |
+| 1 | OLED header |
+| 1 | IC Power connector and jumper|
+| 1 | IC sence connector and jumper|
+| 1 | selector connector |
+
 
 ##3. Assembly Order
 ---
@@ -43,14 +66,14 @@ Capacitors
 5. Headers
 6. OLED header
 7. Buttons
-8. ZIF socket
+8. ZIF/Dip socket
 9. Pico
 
 ##4. First Power-Up
 ---
 10. Check 3.3V
-Check 5V
-Check no shorts
+then Check 5V
+and Check for no shorts
 
 ##5. Bring-Up Procedure
 ---
