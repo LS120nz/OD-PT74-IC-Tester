@@ -38,9 +38,9 @@
 
 With no IC inserted:
 
-- [ ] 14-pin mode: V_OUT appears on ZIF pin 14
+- [ ] 14-pin mode: V_OUT appears on ZIF pin 20
 - [ ] 14-pin mode: GND appears on ZIF pin 7
-- [ ] 16-pin mode: V_OUT appears on ZIF pin 16
+- [ ] 16-pin mode: V_OUT appears on ZIF pin 20
 - [ ] 16-pin mode: GND appears on ZIF pin 8
 - [ ] 20-pin mode: V_OUT appears on ZIF pin 20
 - [ ] 20-pin mode: GND appears on ZIF pin 10
