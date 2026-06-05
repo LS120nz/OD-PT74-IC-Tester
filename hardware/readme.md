@@ -10,7 +10,8 @@ Current features:
 - RGB status LED
 - Active buzzer
 - USB serial output
-- optional OLED support
+- OLED support
+- Rotary Encoder support
 
 Status:
 
