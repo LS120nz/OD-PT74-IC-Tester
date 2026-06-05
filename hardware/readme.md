@@ -1,4 +1,4 @@
-## Board v0.1-revA
+## Board v0.2-revB
 
 ## Current Hardware Revision
 
@@ -14,9 +14,12 @@ Current features:
 
 Status:
 
-- PCB-Rev_A ordered / De-bug and fixed.
-- selection of 14/16/20 pin ics tested.
-- PCB-Rev_B ordered / to be built and tested
+- PCB-Rev_B ordered 
+- PCB Top to be built and tested
+- PCB Main to be built and testedand IC list
+- Update ic tests
+- PCB-Rev-C Devlopment
+- PCB Rev-c colout Top Board
 ---
  
 ## Current limitations
