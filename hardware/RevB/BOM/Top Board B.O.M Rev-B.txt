@@ -1,0 +1,13 @@
+Top Board B.O.M Rev-B
+----------------
+1 x Active Piezo Buzzer (BZ1)
+1 x power LED 3mm (D1)
+1 x RGB Diode BRKG (D2)
+1 x Main Power Switch on/off/on (J1)
+1 x Oled 128x64 Header (J2)
+1 x 2x10 socket (J3)
+2 x 1x16 socket (J4,J5)
+1 x zif 20pin socket
+1 x 1k (R1)
+1 x Push Switch 6x6mm (SW1)
+1 x Encoder EC11E vertical (SW2)
