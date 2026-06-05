@@ -20,6 +20,11 @@ The lessons learned during Rev A development directly led to the design of Rev B
 
 This guide documents the assembly, bring-up, validation, and known issues of the Rev A hardware.
 
+## Hardware Revision
+---
+Revision: Rev A
+Board Version: v0.1
+Status: Validated
 
 ##1. Bill of Materials (BOM)
 ---
@@ -80,12 +85,12 @@ This guide documents the assembly, bring-up, validation, and known issues of the
 
 ##3. Pre-Power Checks
 ---
-Check for shorts between 3.3V and GND
-Check for shorts between 5V and GND
-Verify MCP23017 orientation
-Verify Pico orientation
-Verify OLED header orientation
-Verify DUT voltage switch operation
+- Check for shorts between 3.3V and GND
+- Check for shorts between 5V and GND
+- Verify MCP23017 orientation
+- Verify Pico orientation
+- Verify OLED header orientation
+- Verify DUT voltage switch operation
 
 ##4. Bring-Up Procedure
 ---
@@ -187,17 +192,15 @@ PASS
 
 ##5. Known Rev A Issues
 --
-BAT54S orientation correction
-1k resistor update
-74163 test routine issue
+BAT54S clamp diode orientation corrected
+ZIF series resistors changed to 1kΩ
+I²C reassigned to GPIO26/GPIO27
+74163 test routine required additional validation
+OLED SDA/SCL routing corrected during bring-up
 
 ##6. Validation Results
 ---
-74HC00 PASS
-74HC02 PASS
-74HC03 PASS
-...
-74HC595 PASS
+See supported-ics.md for the complete validated device list.
 
 ##7. Rev A Lessons Learned
 ---
@@ -226,3 +229,5 @@ Following successful Rev A validation, the following enhancements were added:
 - Shared I²C bus operation (MCP23017 + OLED)
 - OLED status and test output
 - Additional device test routines
+- Rotary encoder menu system
+- 
