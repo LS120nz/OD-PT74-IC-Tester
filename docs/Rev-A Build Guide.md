@@ -26,7 +26,7 @@ Revision: Rev A
 Board Version: v0.1
 Status: Validated
 
-##1. Bill of Materials (BOM)
+## 1. Bill of Materials (BOM)
 ---
 
 ### Major Components
@@ -62,7 +62,7 @@ Status: Validated
 | 1 | selector connector |
 
 
-##2. Assembly Order
+## 2. Assembly Order
 ---
 1. Resistors
 2. Diodes
@@ -71,8 +71,8 @@ Status: Validated
 5. Headers
 6. Buttons
 7. OLED header
-9. ZIF/Dip socket
-10. Pico
+8. ZIF/Dip socket
+9. Pico
 
 ### Assembly Notes
 
@@ -83,7 +83,7 @@ Status: Validated
 - Install the ZIF socket last to provide the best access to surrounding components.
 - Fit the Pico only after all soldering and continuity checks have been completed.
 
-##3. Pre-Power Checks
+## 3. Pre-Power Checks
 ---
 - Check for shorts between 3.3V and GND
 - Check for shorts between 5V and GND
@@ -92,7 +92,7 @@ Status: Validated
 - Verify OLED header orientation
 - Verify DUT voltage switch operation
 
-##4. Bring-Up Procedure
+## 4. Bring-Up Procedure
 ---
 
 ### A. Flash Firmware
@@ -190,7 +190,7 @@ Expected:
 
 PASS
 
-##5. Known Rev A Issues
+## 5. Known Rev A Issues
 --
 BAT54S clamp diode orientation corrected
 ZIF series resistors changed to 1kΩ
@@ -198,18 +198,18 @@ I²C reassigned to GPIO26/GPIO27
 74163 test routine required additional validation
 OLED SDA/SCL routing corrected during bring-up
 
-##6. Validation Results
+## 6. Validation Results
 ---
 See supported-ics.md for the complete validated device list.
 
-##7. Rev A Lessons Learned
+## 7. Rev A Lessons Learned
 ---
 Need self-powered operation
 Need better front-panel ergonomics
 Need modular UI board
 Need improved OLED integration
 
-##9. Validation Complete
+## 8. Validation Complete
 ---
 
 Rev A bring-up is considered successful when:
