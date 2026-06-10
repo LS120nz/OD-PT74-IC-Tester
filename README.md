@@ -56,8 +56,10 @@ Rev A hardware has been assembled and validated.
 
 - Rev A: Hardware validated
 - Rev B: Prototype in progress
-- Rev C: In development
 - Firmware: Active expansion of supported IC library
+  
+- Rev-C and later development has moved to:
+- Logic IC Diagnostic Analyzer
   
 ## Rev B Development
 
