@@ -65,6 +65,8 @@ These devices have been tested on real hardware and are known to pass.
 
 ## Notes
 
-* Verified devices have been tested on physical hardware.
-* Implemented devices have firmware support but have not yet been validated with a physical IC.
-* Additional 74LS, 74HCT and compatible devices will be added as testing continues.
+### Validation Levels
+
+- Verified = Tested on physical hardware and passes Quick, Full and/or Soak testing.
+- Implemented = Firmware support exists but physical validation has not yet been completed.
+- Planned = Not yet implemented.
