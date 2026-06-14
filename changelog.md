@@ -37,3 +37,35 @@
 * Usage guide
 * Supported IC database
 * Rev B roadmap
+===================
+
+# Rev-B.1 Stable
+
+## Added
+
+* Power-On Self Test (POST)
+* OLED POST status screen
+* Full test mode
+* Soak 50 mode
+* Soak 500 mode
+* Soak Infinite mode
+* OLED error display support
+
+## Fixed
+
+* 7403 open collector NAND test
+* 74139 decoder test
+* 74163 counter test
+* 7414 inverter timing responsiveness
+* TEST button startup handling
+* Package mismatch handling
+
+## Verified
+
+* OLED display operation
+* MCP23017 operation
+* Encoder navigation
+* Package detection
+* Voltage detection
+* Quick, Full and Soak modes
+
