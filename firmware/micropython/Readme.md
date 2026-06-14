@@ -1,6 +1,6 @@
-### Firmware files:
+## Firmware files:
 
-## files are in python format.
+### files are in python format.
 --------------------------------
 Rev-A - main.py (final rev-A version)
 
