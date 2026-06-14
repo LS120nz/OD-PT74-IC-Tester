@@ -68,7 +68,7 @@ Current firmware includes support for
 
 Future advanced development is planned under the **Logic IC Diagnostic Analyzer** project.
 
-## Rev-B.1 Firmware Status
+## Rev-B.1 Firmware Status = Verified
 
 ### Core Features Verified
 
