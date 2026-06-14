@@ -39,16 +39,17 @@ Rev A hardware has been assembled and validated.
 - Buzzer
 - Shared I²C bus (MCP23017 + OLED)
 
-### Verified IC Families
+### Supported Device Categories
 
-18+ ICs validated across:
-
-- Logic gates
-- Decoders
-- Counters
-- Registers
-- Latches
-- Shift registers
+Current firmware includes support for
+- logic gates
+- decoders
+- counters
+- registers
+- latches
+- buffers
+- shift registers
+- Individual device validation is ongoing.
 
 ## Project Status
 
