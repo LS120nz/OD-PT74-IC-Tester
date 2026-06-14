@@ -54,25 +54,53 @@ Rev A hardware has been assembled and validated.
 
 **Status:** Active Development
 
-- Rev A: Hardware validated
-- Rev B: Prototype in progress
-- Firmware: Active expansion of supported IC library
-  
-- Rev-C and later development has moved to:
-- Logic IC Diagnostic Analyzer
-  
-## Rev B Development
+### Current Release
 
-Current work includes:
+**Firmware:** Rev-B.1 Stable
 
-- Self-powered operation (Done)
-- On-board 5V / 3.3V regulation (Done)
-- OLED user interface (Testing)
-- Two-board mechanical design (Done)
-- 3D printed enclosure (Devloping)
-- Improved front-panel ergonomics (Done for Rev-B)
-- Expanded device-specific test routines (Devloping)
-- Improved interactive test selection (Devloping)
+### Hardware Status
+
+* Rev A: Hardware validated
+* Rev B: Hardware assembled and operational
+* Firmware: Stable core framework complete
+* IC library: Continuing expansion and validation
+
+Future advanced development is planned under the **Logic IC Diagnostic Analyzer** project.
+
+## Rev B Firmware Status
+
+### Completed
+
+* Power-on self test (POST)
+* SSD1306 OLED user interface
+* MCP23017 I/O expander support
+* Rotary encoder navigation
+* Package auto-detection (14/16/20 pin)
+* DUT voltage detection (3.3V / 5V)
+* Quick test mode
+* Full test mode
+* Soak 50 mode
+* Soak 500 mode
+* Soak Infinite mode
+* OLED error and status screens
+* Wrong package detection
+* Terminal diagnostic output
+
+### Verified IC Tests
+
+* 7400 NAND
+* 7403 Open Collector NAND
+* 7414 Schmitt Trigger Inverter
+* 74139 Dual Decoder
+* 74163 Synchronous Counter
+
+### In Progress
+
+* Additional IC validation
+* Expanded device library
+* Documentation updates
+* 3D printed enclosure development
+
 
 ## Documentation
 
