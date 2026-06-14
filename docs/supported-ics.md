@@ -49,6 +49,12 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC573 | Octal latch           | Verified |
 | 74HC574 | Octal D flip-flop     | Verified |
 
+### Verified LVC Devices
+
+| IC       | Function              | Status             |
+| -------- | --------------------- | ------------------ |
+| 74LVC245 | Octal bus transceiver | Pending Validation |
+
 ## Implemented but Not Yet Hardware Verified
 
 | IC     | Function         |
@@ -66,6 +72,26 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC157 | Quad 2:1 multiplexer |
 
 ## Notes
+## LVC Device Testing
+
+74LVC devices should be tested with the DUT voltage selector set to **3.3V**.
+
+The tester can be used to identify common counterfeit, damaged, or non-functional LVC devices by verifying:
+
+* Logic functionality
+* Output enable operation
+* Tri-state behaviour
+* Bus transceiver direction control
+* Input/output operation
+* Stuck-high and stuck-low faults
+
+The tester performs functional validation only. It does not verify:
+
+* Propagation delay
+* Maximum operating frequency
+* Output drive strength
+* Leakage current
+* Full datasheet compliance
 
 ### Validation Levels
 
