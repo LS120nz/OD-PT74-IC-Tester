@@ -9,7 +9,9 @@ These devices have been tested on real hardware and are known to pass.
 | IC      | Function                 | Status   |
 | ------- | ------------------------ | -------- |
 | 74HC00  | Quad 2-input NAND        | Verified |
+| 74LS00  | Quad 2-input NAND        | Verified |
 | 74HC02  | Quad 2-input NOR         | Verified |
+| 74LS02  | Quad 2-input NOR         | Verified |
 | 74HC03  | Quad 2-input NAND OC     | Verified |
 | 74HC05  | Hex inverter OC          | Verified |
 | 74HC06  | Hex inverter / driver OC | Verified |
