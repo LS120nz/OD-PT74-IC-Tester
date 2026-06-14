@@ -68,32 +68,38 @@ Current firmware includes support for
 
 Future advanced development is planned under the **Logic IC Diagnostic Analyzer** project.
 
-## Rev B Firmware Status
+## Rev-B.1 Firmware Status
 
-### Completed
+### Core Features Verified
 
-* Power-on self test (POST)
-* SSD1306 OLED user interface
-* MCP23017 I/O expander support
-* Rotary encoder navigation
-* Package auto-detection (14/16/20 pin)
+* Power-On Self Test (POST)
+* MCP23017 detection
+* SSD1306 OLED detection
+* I²C bus diagnostics
+* Package detection (14, 16, 20 pin)
 * DUT voltage detection (3.3V / 5V)
+* Rotary encoder navigation
 * Quick test mode
 * Full test mode
 * Soak 50 mode
 * Soak 500 mode
 * Soak Infinite mode
-* OLED error and status screens
-* Wrong package detection
-* Terminal diagnostic output
+* OLED status and error screens
+* Wrong package detection and warning
+* Serial terminal diagnostics
 
-### Verified IC Tests
+### Notes
 
-* 7400 NAND
-* 7403 Open Collector NAND
-* 7414 Schmitt Trigger Inverter
-* 74139 Dual Decoder
-* 74163 Synchronous Counter
+The tester performs a Power-On Self Test (POST) during startup and reports:
+
+* I²C devices detected
+* MCP23017 status
+* OLED status
+* Selected package size
+* DUT voltage selection
+* TEST button state
+
+Results are displayed on both the serial terminal and OLED display.
 
 ### In Progress
 
