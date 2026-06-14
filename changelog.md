@@ -70,3 +70,11 @@
 * Voltage detection
 * Quick, Full and Soak modes
 
+### Rev-B.1 Validation Update
+
+Additional real-hardware validation completed:
+
+* 74LS00 Quad NAND
+* 74LS02 Quad NOR
+
+These devices passed Quick, Full and Soak testing, confirming compatibility with the 74LS logic family.
