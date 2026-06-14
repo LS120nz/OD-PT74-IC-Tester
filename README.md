@@ -57,7 +57,7 @@ Current firmware includes support for
 
 ### Current Release
 
-**Firmware:** Rev-B.1 Stable  = ## Verified
+## **Firmware:** Rev-B.1 Stable  = Verified
 
 ### Hardware Status
 
