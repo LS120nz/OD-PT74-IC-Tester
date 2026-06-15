@@ -74,7 +74,9 @@
 
 Additional real-hardware validation completed:
 
-* 74LS00 Quad NAND
-* 74LS02 Quad NOR
+check - Supported-ics.md
+
+**Old SN74LS157: suspect/faulty, enable/input loading issue
+New TI SN74LS157N: PASS
 
 These devices passed Quick, Full and Soak testing, confirming compatibility with the 74LS logic family.
