@@ -77,13 +77,6 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC32 | Quad 2-input OR  |
 | 74HC86 | Quad 2-input XOR |
 
-## Planned Devices
-
-| IC      | Function             |
-| ------- | -------------------- |
-| 74HC74  | Dual D flip-flop     |
-| 74HC157 | Quad 2:1 multiplexer |
-
 ## Notes
 ## LVC Device Testing
 
