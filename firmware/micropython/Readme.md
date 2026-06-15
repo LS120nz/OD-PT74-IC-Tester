@@ -4,7 +4,9 @@ Firmware files for the Pico 74xx IC Tester.
 
 ## File List
 
-### Rev-A
+# Firmware Versions
+
+## Rev-A
 
 **main.py**
 
@@ -12,40 +14,51 @@ Final Rev-A firmware release.
 
 Features:
 
-* Basic IC testing
-* OLED support
-* MCP23017 support
-* Rotary encoder navigation
-* Package and voltage detection
+- USB terminal interface
+- IC test framework
+- MCP23017 support
+- Basic user interface
 
 ---
 
-### Rev-B
+## Rev-B1a
 
-**main_rev_b1_stable.py**
+**main_rev_b1a.py**
 
-Current stable firmware release.
+Major user-interface update.
 
 Features:
 
-* Power-On Self Test (POST)
-* I²C device diagnostics
-* OLED status and error screens
-* Package detection (14/16/20 pin)
-* DUT voltage detection (3.3V / 5V)
-* Quick test mode
-* Full test mode
-* Soak 50 mode
-* Soak 500 mode
-* Soak Infinite mode
-* Improved IC validation routines
-
-Status:
-
-* Stable
-* Active development continues with additional IC support and validation
+- SSD1306 OLED support
+- Power-On Self Test (POST)
+- Rotary encoder menu
+- Quick / Full / Soak test modes
+- Improved IC selection
+- Improved diagnostics
 
 ---
+
+## Rev-B2
+
+**main_rev_b2.py**
+
+Statistics and record-keeping release.
+
+Features:
+
+- Session PASS counter
+- Session FAIL counter
+- Lifetime PASS counter
+- Lifetime FAIL counter
+- Last tested device record
+- Persistent stats.json storage
+- OLED result statistics display
+
+---
+
+Current recommended version:
+
+**Rev-B2**
 
 ## Notes
 
