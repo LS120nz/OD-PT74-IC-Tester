@@ -19,6 +19,7 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC10  | Triple 3-input NAND      | Verified |
 | 74HC14  | Hex Schmitt inverter     | Verified |
 | 74HC21  | Dual 4-input AND         | Verified |
+| 74LS27  | Triple 3-input NOR       | Verified |
 | 74HC30  | 8-input NAND             | Verified |
 | 74LS74  | Dual D flip-flop         | Verified |
 | 74HC125 | Quad tri-state buffer    | Verified |
