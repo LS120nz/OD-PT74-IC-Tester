@@ -36,6 +36,7 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC138 | 3-to-8 decoder                        | Verified             |
 | 74HC139 | Dual 2-to-4 decoder                   | Verified             |
 | 74LS157 | Quad 2:1 multiplexer                  | Verified             |
+| 74LS161 | 4-bit synchronous binary counter      | Verified             |
 | 74HC163 | 4-bit counter                         | Verified             |
 | 74HC165 | 8-bit PISO shift register             | Verified             |
 | 74HC174 | Hex D flip-flop                       | Verified             |
