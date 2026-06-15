@@ -79,4 +79,5 @@ check - Supported-ics.md
 **Old SN74LS157: suspect/faulty, enable/input loading issue
 - New TI SN74LS157N: PASS
 - Added and verified 74LS74 dual D flip-flop test
+- 
 These devices passed Quick, Full and Soak testing, confirming compatibility with the 74LS logic family.
