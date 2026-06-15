@@ -20,6 +20,7 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC14  | Hex Schmitt inverter     | Verified |
 | 74HC21  | Dual 4-input AND         | Verified |
 | 74HC30  | 8-input NAND             | Verified |
+| 74LS74  | Dual D flip-flop         | testing  |
 | 74HC125 | Quad tri-state buffer    | Verified |
 | 74HC126 | Quad tri-state buffer    | Verified |
 | 74HC132 | Quad Schmitt NAND        | Verified |
@@ -32,6 +33,7 @@ These devices have been tested on real hardware and are known to pass.
 | ------- | ------------------------------------- | -------------------- |
 | 74HC138 | 3-to-8 decoder                        | Verified             |
 | 74HC139 | Dual 2-to-4 decoder                   | Verified             |
+| 74LS157 | Quad 2:1 multiplexer                  | testing              |
 | 74HC163 | 4-bit counter                         | Verified             |
 | 74HC165 | 8-bit PISO shift register             | Verified             |
 | 74HC174 | Hex D flip-flop                       | Verified             |
