@@ -81,3 +81,11 @@ check - Supported-ics.md
 - Added and verified 74LS74 dual D flip-flop test
 - 
 These devices passed Quick, Full and Soak testing, confirming compatibility with the 74LS logic family.
+### Rev-B.2 Statistics Update
+
+For Rev-B.2:
+
+1. Session counters
+2. Lifetime counters (stats.json)
+3. Statistics screen
+4. Reset statistics option
