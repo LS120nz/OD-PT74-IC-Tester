@@ -17,13 +17,16 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC06  | Hex inverter / driver OC | Verified |
 | 74LS06  | Hex inverter / driver OC | Verified |
 | 74HC07  | Hex buffer / driver OC   | Verified |
+| 74LS07  | Hex buffer / driver OC   | Verified |
+| 74HC08  | Quad 2-input AND         | Verified |
 | 74HC10  | Triple 3-input NAND      | Verified |
+| 74HC11  | Triple 3-Input AND       | Verified |
 | 74LS11  | Triple 3-Input AND       | Verified |
 | 74HC14  | Hex Schmitt inverter     | Verified |
 | 74HC21  | Dual 4-input AND         | Verified |
 | 74LS27  | Triple 3-input NOR       | Verified |
 | 74HC30  | 8-input NAND             | Verified |
-| 74HC32  | Quad 2-input OR          | In Development |
+| 74HC32  | Quad 2-input OR          | Verified |
 | 74LS32  | Quad 2-input OR          | Verified |
 | 74LS74  | Dual D flip-flop         | Verified |
 | 74HC125 | Quad tri-state buffer    | Verified |
@@ -34,21 +37,26 @@ These devices have been tested on real hardware and are known to pass.
 
 ### 16-pin Devices
 
-| IC      | Function                              | Status               |
-| ------- | ------------------------------------- | -------------------- |
-| 74LS04  | 4-bit synchronous binary counter      | Verified             |
-| 74LS83  | 4-bit binary full adder               | In Development       |
-| 74HC138 | 3-to-8 decoder                        | Verified             |
-| 74HC139 | Dual 2-to-4 decoder                   | Verified             |
-| 74LS139 | Dual 2-to-4 decoder                   | Verified             |
-| 74LS151 | 8-input Digital Multiplexer           | Verified             |
-| 74LS153 | Dual 4 Input Multiplexer              | Verified             |
-| 74LS157 | Quad 2:1 multiplexer                  | Verified             |
-| 74LS161 | 4-bit synchronous binary counter      | Verified             |
-| 74HC163 | 4-bit counter                         | Verified             |
-| 74HC165 | 8-bit PISO shift register             | Verified             |
-| 74HC174 | Hex D flip-flop                       | Verified             |
-| 74HC595 | Serial-in parallel-out shift register | Verified             |
+| IC      | Function                              | Status   |
+| ------- | ------------------------------------- | ---------|
+| 74LS04  | Hex inverter                          | Verified |
+| 74LS85  | 4-bit magnitude comparator            | Verified |
+| 74LS93  | 4-bit binary ripple counter           | Verified |
+| 74HC138 | 3-to-8 decoder                        | Verified |
+| 74HC139 | Dual 2-to-4 decoder                   | Verified |
+| 74LS139 | Dual 2-to-4 decoder                   | Verified |
+| 74LS151 | 8-input Digital Multiplexer           | Verified |
+| 74LS153 | Dual 4 Input Multiplexer              | Verified |
+| 74LS157 | Quad 2:1 multiplexer                  | Verified |
+| 74LS161 | 4-bit synchronous binary counter      | Verified |
+| 74HC163 | 4-bit counter                         | Verified |
+| 74HC165 | 8-bit PISO shift register             | Verified |
+| 74HC174 | Hex D flip-flop                       | Verified |
+| 74LS194 | 4-bit bidirectional shift register    | Verified |
+| 74HC595 | Serial-in parallel-out shift register | Verified |
+
+
+
 
 ### 20-pin Devices
 
@@ -73,8 +81,6 @@ These devices have been tested on real hardware and are known to pass.
 | IC     | Function         |
 | ------ | ---------------- |
 | 74HC04 | Hex inverter     |
-| 74HC08 | Quad 2-input AND |
-| 74HC32 | Quad 2-input OR  |
 | 74HC86 | Quad 2-input XOR |
 
 ## Notes
