@@ -9,6 +9,12 @@ A Raspberry Pi Pico based tester for 74xx-series logic ICs.
 
 Designed as a practical bench instrument for testing 74LS, 74HC, 74HCT and compatible logic devices used in retro-computing, repair, and electronics projects. The tester supports 14-pin, 16-pin and 20-pin DIP devices, automatic package detection, OLED status display, and a growing library of validated IC tests.
 
+## Rev-B Scope
+
+Rev-B focuses on common 74LS, 74HC and 74HCT logic devices using standard 14-pin, 16-pin and 20-pin DIP packages with conventional power pin assignments.
+
+More specialised devices, non-standard power pin arrangements, adapter-based devices and advanced diagnostic functions are planned for the future Rev-C Logic IC Diagnostic Analyzer.
+
 ## Features
 
 - Tests common 14-pin, 16-pin, and 20-pin 74xx logic ICs
