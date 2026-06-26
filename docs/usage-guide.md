@@ -81,7 +81,7 @@ Runs the currently selected IC test.
 - Quick Test
 - Full Test
 - Soak 50
-- Soak 100
+- Soak 500
 - Soak Unlimited
 - Check
 
