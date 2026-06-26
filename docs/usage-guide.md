@@ -72,10 +72,17 @@ The tester automatically detects the selected voltage.
 #### NEXT
 
 Cycles through supported IC types.
+(check supported IC list)
 
 #### TEST
 
 Runs the currently selected IC test.
+- Quick Test
+- Full Test
+- Soak 50
+- Soak 100
+- Soak Unlimited
+- Check
 
 ---
 
