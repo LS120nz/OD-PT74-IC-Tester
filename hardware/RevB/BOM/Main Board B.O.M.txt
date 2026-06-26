@@ -24,7 +24,6 @@ Main Board B.O.M Rev-B
 20 x 1K (R14-R33)
 1 x push switch 6x6mm (SW3)
 1 x SPST power on/of mains switch (SW7 not in circuit)
-1 x DPxTT Pico/DC power switch (for SW4)
 1 x DPxTT 3v/5v ic test & scene (for SW5 and SW6)
 1 x MCP23017 (U1)
 1 x AP63203WU (U2)
