@@ -36,7 +36,7 @@
 * No over-current shutdown
 * Limited sequential logic support
 * No automatic IC identification
-* OLED user interface still under development
+* OLED user interface Finished
 
 ---
 
@@ -67,5 +67,5 @@
 | Revision | Status                     |
 | -------- | -------------------------- |
 | Rev A    | Validated                  |
-| Rev B    | Assembly / Testing Pending |
+| Rev B    | Assembly / Testing         |
 | Rev C    | In Development             |
