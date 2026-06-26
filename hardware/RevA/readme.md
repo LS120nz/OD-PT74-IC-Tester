@@ -1,6 +1,6 @@
 # Rev A Hardware
 
-(NOW ARCHIVED FOR HISTORY ONLY!}
+## (NOW ARCHIVED FOR HISTORY ONLY!}
 
 This folder contains the Rev A hardware design files for the Pico 74xx IC Tester.
 
