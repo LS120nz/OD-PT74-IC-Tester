@@ -21,7 +21,7 @@ Features:
 
 ---
 
-## Rev-B1a
+## Rev-B1 & B1a
 
 **main_rev_b1a.py**
 
