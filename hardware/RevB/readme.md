@@ -24,7 +24,8 @@
 * Main Board assembled and testing
 * UI Board assembled and testing
 * Rev B hardware validation Finished
-* IC database expansion Finished (User updates to IC's Encouraged)
+* IC database expansion Finished
+* User updates to IC Database Encouraged
 * Device-specific test Finished
 * Rev C development on going
 
