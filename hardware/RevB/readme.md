@@ -20,13 +20,13 @@
 
 ### Current Status
 
-* PCB Rev B ordered
-* Main Board assembly pending
-* UI Board assembly pending
-* Rev B hardware validation pending
-* IC database expansion in progress
-* Device-specific test development in progress
-* Rev C development started
+* PCB Rev B Arrived
+* Main Board assembled and testing
+* UI Board assembled and testing
+* Rev B hardware validation Finished
+* IC database expansion Finished (User updates to IC's Encouraged)
+* Device-specific test Finished
+* Rev C development on going
 
 ---
 
