@@ -1,6 +1,6 @@
 # Pico 74xx IC Tester
-![Pico 74xx IC Tester](images/assembled.jpg)
-*Rev A prototype during hardware validation and firmware bring-up.*
+![Pico 74xx IC Tester](images/RevB-Case-top.jpg)
+*Rev B Final Version in 3D printed case.*
 ---
 ![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
 ![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
