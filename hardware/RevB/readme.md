@@ -67,5 +67,5 @@
 | Revision | Status                     |
 | -------- | -------------------------- |
 | Rev A    | Validated                  |
-| Rev B    | Ordered / Assembly Pending |
+| Rev B    | Assembly / Testing Pending |
 | Rev C    | In Development             |
