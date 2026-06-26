@@ -1,5 +1,7 @@
 # Rev A Hardware
 
+(NOW ARCHIVED FRO HISTORY ONLY!}
+
 This folder contains the Rev A hardware design files for the Pico 74xx IC Tester.
 
 ## Contents
@@ -49,4 +51,4 @@ Rendered PCB images and schematics.
 
 ## Current Status
 
-Rev A PCBs ordered / in testing.
+Rev A Finishe and Now Archived for history only !!!
