@@ -44,6 +44,7 @@ Selects the active power and ground pins for the ZIF socket.
 
 | Position | Package |
 |---|---|
+| 0 | Off    |
 | 1 | 14-pin |
 | 2 | 16-pin |
 | 3 | 20-pin |
