@@ -110,10 +110,10 @@ Results are displayed on both the serial terminal and OLED display.
 
 ### In Progress
 
-* Additional IC validation
-* Expanded device library
-* Documentation updates
-* 3D printed enclosure development
+* Additional IC validation Finished
+* Expanded device library Finished
+* Documentation updated
+* 3D printed enclosure Done
 
 
 ## Documentation
