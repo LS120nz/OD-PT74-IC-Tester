@@ -72,6 +72,7 @@ The tester automatically detects the selected voltage.
 #### NEXT
 
 Cycles through supported IC types.
+
 (check supported IC list)
 
 #### TEST
