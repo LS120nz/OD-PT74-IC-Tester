@@ -1,6 +1,6 @@
 # Pico 74xx IC Tester
 ![Pico 74xx IC Tester](images/RevB-Case-top.jpg)
-*Rev B Final Version in 3D printed case.*
+*Rev B hardware assembled in the first 3D printed enclosure.*
 ---
 ![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
 ![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
@@ -63,7 +63,7 @@ Current firmware includes support for
 
 **Status:** Active Development
 
-## Current Release: Rev-B.1
+## Current Release: Rev-B.1 v0.2.0.
 
 ### Firmware Status
 
