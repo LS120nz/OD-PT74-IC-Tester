@@ -29,7 +29,9 @@ More specialised devices, non-standard power pin arrangements, adapter-based dev
 
 ## Current Status
 
-Rev A hardware has been assembled and validated.
+Rev B hardware has been assembled and successfully brought up.
+
+Rev A served as the proof-of-concept platform, while Rev B introduces the production-style hardware, integrated enclosure, improved user interface, and expanded firmware.
 
 ### Verified Hardware
 
