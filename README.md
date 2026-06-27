@@ -13,6 +13,7 @@ An open-source bench instrument for testing classic 74xx logic ICs.
 | Voltage | 3.3 V / 5 V |
 | Interface | Rotary encoder + buttons |
 | Firmware | MicroPython |
+| License | MIT / CERN-OHL-S |
 ---
 
 ![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
@@ -95,7 +96,7 @@ improved user interface, and expanded firmware.
   
 ## Firmware Features
 
-# Core Features Verified
+### Core Features Verified
 
 - Modular two-board architecture
 - Separate user-interface board for improved ergonomics and future upgrades
@@ -196,6 +197,11 @@ Development of advanced diagnostic features will continue in the separate **Logi
 hardware/
 ├── revA/
 └── revB/
+
+firmware/
+└── revB/
+
+docs/
 ```
 
 ## License
