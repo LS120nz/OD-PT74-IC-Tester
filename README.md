@@ -63,7 +63,7 @@ Current firmware includes support for
 
 **Status:** Release Candidate (Rev-B)
 
-## Current Release: Rev-B.1 v1.0.0
+## Current Release: Rev-B v1.0.0
 
 ### Firmware Status
 
@@ -71,7 +71,7 @@ Current firmware includes support for
 - Menu system operational
 - OLED interface operational
 - IC library under continuous expansion
-  
+- Over 39 verified 74xx devices supported
 -------------------------------
 
 ### Hardware Status
@@ -105,17 +105,24 @@ Future advanced development is planned under the **Logic IC Diagnostic Analyzer*
 * Wrong package detection and warning
 * Serial terminal diagnostics
 
+## Test Modes
+
+- Quick Test
+- Full Functional Test
+- Soak 50
+- Soak 500
+- Continuous Soak
+- Power-On Self Test (POST)
+  
 ### Notes
 
 The tester performs a Power-On Self Test (POST) during startup and reports:
-
 * I²C devices detected
 * MCP23017 status
 * OLED status
 * Selected package size
 * DUT voltage selection
 * TEST button state
-
 Results are displayed on both the serial terminal and OLED display.
 
 ### Remaining Development
@@ -125,6 +132,18 @@ Results are displayed on both the serial terminal and OLED display.
 - Continue expanding the supported IC database
 - Refine OLED user interface
 
+## Community Contributions
+
+Additional IC test definitions are welcome.
+
+If you implement support for a new device, please include:
+
+- Test source code
+- Pin mapping
+- Hardware validation
+- Quick / Full / Soak results
+
+Verified contributions will be considered for future releases.
 
 ## Documentation
 
@@ -142,7 +161,12 @@ The Rev B hardware and firmware are intended to provide a practical, easy-to-bui
 
 - **Rev A** — Prove the electronics and firmware.
 - **Rev B** — Build a polished, practical bench instrument.
-- **Rev C** — Expand into a dedicated Logic IC Diagnostic Analyzer in its own repository.
+
+## Future Development
+
+**Rev-C** will become a separate project focused on advanced logic diagnostics, expanded IC support and enhanced bench analysis features.
+
+**Rev-B** will remain the stable logic IC tester platform.
 
 ## Hardware
 
@@ -151,10 +175,9 @@ See:
 ```text
 hardware/revA/
 hardware/revB/
-
+---
 
 Hardware: CERN-OHL-S v2
 
 Firmware/docs: MIT
 
----
