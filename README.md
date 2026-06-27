@@ -128,6 +128,8 @@ Results are displayed on both the serial terminal and OLED display.
 
 ## Documentation
 
+The Rev B hardware and firmware are intended to provide a practical, easy-to-build logic IC tester for hobbyists, repair technicians, and retro-computing enthusiasts. Development continues with additional device support and enhanced diagnostic capabilities.
+
 - [Build Guide](docs/build-guide.md)
 - [Usage Guide](docs/usage-guide.md)
 - [Supported ICs](docs/supported-ics.md)
@@ -143,9 +145,11 @@ See:
 hardware/revA/
 hardware/revB/
 
-Rev A — Prove the electronics and firmware.
-Rev B — Build a polished, usable instrument.
-Rev C — Expand into a full logic IC diagnostic analyzer in ti's own Repository.
+## Project Evolution
+
+- **Rev A** — Prove the electronics and firmware.
+- **Rev B** — Build a polished, practical bench instrument.
+- **Rev C** — Expand into a dedicated Logic IC Diagnostic Analyzer in its own repository.
 ```
 
 Hardware: CERN-OHL-S v2
