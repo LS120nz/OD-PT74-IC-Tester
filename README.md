@@ -87,6 +87,8 @@ Future advanced development is planned under the **Logic IC Diagnostic Analyzer*
 
 ### Core Features Verified
 
++ Modular two-board architecture
++ Separate user-interface board for improved ergonomics and future upgrades
 * Power-On Self Test (POST)
 * MCP23017 detection
 * SSD1306 OLED detection
@@ -116,12 +118,12 @@ The tester performs a Power-On Self Test (POST) during startup and reports:
 
 Results are displayed on both the serial terminal and OLED display.
 
-### In Progress
+### Remaining Development
 
-* Additional IC validation Finished
-* Expanded device library Finished
-* Documentation updated
-* 3D printed enclosure Done
+- Validate additional 74LS devices
+- Validate remaining supported HC devices
+- Continue expanding the supported IC database
+- Refine OLED user interface
 
 
 ## Documentation
