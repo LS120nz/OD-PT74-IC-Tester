@@ -137,6 +137,13 @@ The Rev B hardware and firmware are intended to provide a practical, easy-to-bui
 - [Troubleshooting](docs/troubleshooting.md)
 - [Rev B Roadmap](docs/rev-b-roadmap.md)
 
+
+## Project Evolution
+
+- **Rev A** — Prove the electronics and firmware.
+- **Rev B** — Build a polished, practical bench instrument.
+- **Rev C** — Expand into a dedicated Logic IC Diagnostic Analyzer in its own repository.
+
 ## Hardware
 
 See:
@@ -145,13 +152,6 @@ See:
 hardware/revA/
 hardware/revB/
 ---
-
-## Project Evolution
-
-- **Rev A** — Prove the electronics and firmware.
-- **Rev B** — Build a polished, practical bench instrument.
-- **Rev C** — Expand into a dedicated Logic IC Diagnostic Analyzer in its own repository.
-```
 
 Hardware: CERN-OHL-S v2
 
