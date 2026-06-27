@@ -181,7 +181,7 @@ Rev-B will continue to receive verified IC definitions and maintenance updates.
 Development of advanced diagnostic features will continue in the separate **Logic IC Diagnostic Analyzer (Rev-C)** project.
 
 ## Hardware
-
+---
 hardware/
 
         ├── revA/
