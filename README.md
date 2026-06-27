@@ -3,6 +3,18 @@ An open-source bench instrument for testing classic 74xx logic ICs.
 ![Pico 74xx IC Tester](images/RevB-Case-top.jpg)
 *Rev B hardware assembled in the first 3D printed enclosure.*
 ---
+
+| Feature | Value |
+|---------|-------|
+| MCU | Raspberry Pi Pico (RP2040) |
+| IC Packages | 14, 16, 20-pin DIP |
+| Display | 128×64 OLED |
+| Test Modes | Quick, Full, Soak |
+| Voltage | 3.3 V / 5 V |
+| Interface | Rotary encoder + buttons |
+| Firmware | MicroPython |
+---
+
 ![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
 ![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
 
@@ -80,9 +92,9 @@ improved user interface, and expanded firmware.
 - Enclosure: First production design completed
 - Firmware: Stable and operational
 - IC library: Ongoing validation and expansion
-- 
+  
 ## Firmware Features
----
+
 # Core Features Verified
 
 - Modular two-board architecture
@@ -122,6 +134,7 @@ The tester performs a Power-On Self Test (POST) during startup and reports:
 - Selected package size
 - DUT voltage selection
 - TEST button state
+  
 Results are displayed on both the serial terminal and OLED display.
 
 ## Ongoing Validation
@@ -156,8 +169,7 @@ Verified contributions will be considered for future releases.
 5. Select the IC package size, insert the device, and press **TEST**.
    
 ## Documentation
-The Rev-B platform is feature complete. Ongoing development focuses on expanding the verified IC library and maintaining the firmware, 
-while advanced diagnostic features will be developed in the separate Rev-C project.
+The Rev-B platform is feature complete. Ongoing work focuses on expanding the verified IC library and maintaining the firmware, while advanced diagnostic features are planned for the separate Rev-C project.
 
 - [Build Guide](docs/build-guide.md)
 - [Usage Guide](docs/usage-guide.md)
@@ -178,13 +190,15 @@ Rev-B will continue to receive verified IC definitions and maintenance updates.
 
 Development of advanced diagnostic features will continue in the separate **Logic IC Diagnostic Analyzer (Rev-C)** project.
 
-## Hardware
+## Repository Structure
 
 ```
 hardware/
 ├── revA/
 └── revB/
 ```
+
+## License
 
 Hardware licensed under **CERN-OHL-S v2**.
 
