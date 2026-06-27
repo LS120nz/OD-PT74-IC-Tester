@@ -1,6 +1,6 @@
 # Pico 74xx IC Tester
 An open-source bench instrument for testing classic 74xx logic ICs.
-![Pico 74xx IC Tester](images/RevB-Case-top.jpg)
+![Pico 74xx IC Tester](images/enclosure/RevB-Case-top.jpg)
 *Rev B hardware assembled in the first 3D printed enclosure.*
 ---
 
