@@ -48,6 +48,7 @@ These devices have been tested on real hardware and are known to pass.
 
 | IC      | Function                              | Status   | Notes           |
 | ------- | ------------------------------------- | -------- | --------------- |
+| 74LS85  | 4-bit magnitude comparator            | Verified |                 |
 | 74HC138 | 3-to-8 decoder                        | Verified |                 |
 | 74HC139 | Dual 2-to-4 decoder                   | Verified |                 |
 | 74LS139 | Dual 2-to-4 decoder                   | Failed   | Faulty IC found |
@@ -60,7 +61,6 @@ These devices have been tested on real hardware and are known to pass.
 | 74HC174 | Hex D flip-flop                       | Verified |                 |
 | 74LS194 | 4-bit bidirectional shift register    | Verified |                 |
 | 74HC595 | Serial-in parallel-out shift register | Verified |                 |
-| 74LS85  | 4-bit magnitude comparator            | Verified |                 |
 
 ### 20-pin Devices
 
