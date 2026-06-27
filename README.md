@@ -142,6 +142,10 @@ See:
 ```text
 hardware/revA/
 hardware/revB/
+
+Rev A — Prove the electronics and firmware.
+Rev B — Build a polished, usable instrument.
+Rev C — Expand into a full logic IC diagnostic analyzer in ti's own Repository.
 ```
 
 Hardware: CERN-OHL-S v2
