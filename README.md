@@ -61,7 +61,7 @@ Current firmware includes support for
 
 ## Project Status
 
-**Status:** Active Development
+**Status:** Release Candidate (Rev-B)
 
 ## Current Release: Rev-B.1 v1.0.0
 
