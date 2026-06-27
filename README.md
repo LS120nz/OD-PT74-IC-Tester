@@ -183,7 +183,9 @@ Development of advanced diagnostic features will continue in the separate **Logi
 ## Hardware
 
 hardware/
+
         ├── revA/
+
         └── revB/
 ---
 Hardware: CERN-OHL-S v2
