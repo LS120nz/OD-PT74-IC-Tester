@@ -151,7 +151,7 @@ See:
 ```text
 hardware/revA/
 hardware/revB/
----
+
 
 Hardware: CERN-OHL-S v2
 
