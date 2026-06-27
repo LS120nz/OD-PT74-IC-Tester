@@ -1,4 +1,5 @@
 # Pico 74xx IC Tester
+An open-source bench instrument for testing classic 74xx logic ICs.
 ![Pico 74xx IC Tester](images/RevB-Case-top.jpg)
 *Rev B hardware assembled in the first 3D printed enclosure.*
 ---
@@ -15,6 +16,16 @@ Rev-B focuses on common 74LS, 74HC, 74HCT and some 74LVC logic devices using sta
 
 More specialised devices, non-standard power pin arrangements, adapter-based devices and advanced diagnostic functions are planned for the future Rev-C Logic IC Diagnostic Analyzer.
 
+## Project Highlights
+
+- Raspberry Pi Pico (RP2040) based logic IC tester
+- Supports 14, 16 and 20-pin DIP 74xx devices
+- 40+ verified IC definitions
+- Quick, Full and Soak testing modes
+- Power-On Self Test (POST)
+- OLED user interface with rotary encoder
+- Fully open-source hardware and firmware
+
 ## Features
 
 - Tests common 14-pin, 16-pin, and 20-pin 74xx logic ICs
@@ -27,7 +38,7 @@ More specialised devices, non-standard power pin arrangements, adapter-based dev
 - USB terminal output
 - SSD1306 128×64 OLED display
 
-## Current Status
+## Hardware Overview
 
 Rev B hardware has been assembled and successfully brought up.
 
@@ -53,7 +64,7 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 ✓ 16-pin DIP
 ✓ 20-pin DIP
 
-✓ 40+ verified ICs
+✓ 39+ verified ICs
 ✓ Quick / Full / Soak testing
 ✓ Open source firmware
 
@@ -69,7 +80,6 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 - Menu system operational
 - OLED interface operational
 - IC library under continuous expansion
-- Over 39 verified 74xx devices supported
 -------------------------------
 
 ### Hardware Status
@@ -81,7 +91,7 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 
 Future advanced development is planned under the **Logic IC Diagnostic Analyzer** project.
 
-## Rev-B.1 Firmware Status
+## Rev-B Firmware Status
 
 ### Core Features Verified
 
@@ -123,7 +133,11 @@ The tester performs a Power-On Self Test (POST) during startup and reports:
 * TEST button state
 Results are displayed on both the serial terminal and OLED display.
 
-### Remaining Development
+## Ongoing Validation
+
+The Rev-B platform is feature complete.
+
+Current work focuses on expanding the verified IC library through hardware validation and community contributions.
 
 - Validate additional 74LS devices
 - Validate remaining supported HC devices
@@ -162,20 +176,23 @@ The Rev B hardware and firmware are intended to provide a practical, easy-to-bui
 
 ## Future Development
 
-**Rev-C** will become a separate project focused on advanced logic diagnostics, expanded IC support and enhanced bench analysis features.
+Rev-B will continue to receive verified IC definitions and maintenance updates.
 
-**Rev-B** will remain the stable logic IC tester platform.
+Development of advanced diagnostic features will continue in the separate **Logic IC Diagnostic Analyzer (Rev-C)** project.
 
 ## Hardware
 
-See:
-
-```text
-hardware/revA/
-hardware/revB/
+hardware/
+├── revA/
+└── revB/
 ---
 
 Hardware: CERN-OHL-S v2
 
 Firmware/docs: MIT
 
+## Acknowledgements
+
+Developed by Otter Designs, New Zealand.
+
+Special thanks to the retro-computing and open-source hardware communities whose projects and documentation helped inspire this tester.
