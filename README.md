@@ -47,17 +47,15 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 - Buzzer
 - Shared I²C bus (MCP23017 + OLED)
 
-### Supported Device Categories
+## Supports:
 
-Current firmware includes support for
-- logic gates
-- decoders
-- counters
-- registers
-- latches
-- buffers
-- shift registers
-- Individual device validation is ongoing.
+✓ 14-pin DIP
+✓ 16-pin DIP
+✓ 20-pin DIP
+
+✓ 40+ verified ICs
+✓ Quick / Full / Soak testing
+✓ Open source firmware
 
 ## Project Status
 
