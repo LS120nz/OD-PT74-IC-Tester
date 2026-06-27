@@ -58,16 +58,6 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 - Buzzer
 - Shared I²C bus (MCP23017 + OLED)
 
-## Supports:
-
-✓ 14-pin DIP
-✓ 16-pin DIP
-✓ 20-pin DIP
-
-✓ 39+ verified ICs
-✓ Quick / Full / Soak testing
-✓ Open source firmware
-
 ## Project Status
 
 **Status:** Release Candidate (Rev-B)
@@ -76,24 +66,24 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 
 ### Firmware Status
 
-- Core framework stable
-- Menu system operational
-- OLED interface operational
-- IC library under continuous expansion
+- Stable modular firmware architecture
+- Menu-driven user interface
+- OLED display and diagnostics operational
+- Quick, Full and Soak test modes implemented
+- Ongoing expansion of the verified IC library
 -------------------------------
 
 ### Hardware Status
 
-* Rev A: Hardware validated
-* Rev B: Hardware assembled and operational
-* Firmware: Stable core framework complete
-* IC library: Continuing expansion and validation
-
-Future advanced development is planned under the **Logic IC Diagnostic Analyzer** project.
-
+- Rev A: Proof-of-concept platform completed
+- Rev B: Production hardware validated
+- Enclosure: First production design completed
+- Firmware: Stable and operational
+- IC library: Ongoing validation and expansion
+- 
 ## Rev-B Firmware Status
-
-### Core Features Verified
+---
+# Core Features Verified
 
 + Modular two-board architecture
 + Separate user-interface board for improved ergonomics and future upgrades
@@ -156,10 +146,16 @@ If you implement support for a new device, please include:
 - Quick / Full / Soak results
 
 Verified contributions will be considered for future releases.
+## Getting Started
 
+1. Build the Rev-B hardware.
+2. Flash the supplied MicroPython firmware to the Raspberry Pi Pico.
+3. Copy `main.py` to the Pico.
+4. Power on the tester.
+5. Select the IC package size, insert the device, and press **TEST**.
 ## Documentation
-
-The Rev B hardware and firmware are intended to provide a practical, easy-to-build logic IC tester for hobbyists, repair technicians, and retro-computing enthusiasts. Development continues with additional device support and enhanced diagnostic capabilities.
+The Rev-B platform is feature complete. Ongoing development focuses on expanding the verified IC library and maintaining the firmware, 
+while advanced diagnostic features will be developed in the separate Rev-C project.
 
 - [Build Guide](docs/build-guide.md)
 - [Usage Guide](docs/usage-guide.md)
@@ -181,13 +177,12 @@ Rev-B will continue to receive verified IC definitions and maintenance updates.
 Development of advanced diagnostic features will continue in the separate **Logic IC Diagnostic Analyzer (Rev-C)** project.
 
 ## Hardware
----
+
+```text
 hardware/
-
-        ├── revA/
-
-        └── revB/
----
+├── revA/
+└── revB/
+```
 Hardware: CERN-OHL-S v2
 
 Firmware/docs: MIT
