@@ -144,6 +144,7 @@ See:
 ```text
 hardware/revA/
 hardware/revB/
+---
 
 ## Project Evolution
 
