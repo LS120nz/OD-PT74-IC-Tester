@@ -59,6 +59,7 @@ Features:
 Current recommended version:
 
 **Rev-B2**
+
 rename the "main_rev_b2_stable.py" to just "main.py" so it can be copied to the pico.
 
 ## Notes
