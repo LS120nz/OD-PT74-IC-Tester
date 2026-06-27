@@ -42,7 +42,8 @@ More specialised devices, non-standard power pin arrangements, adapter-based dev
 
 Rev B hardware has been assembled and successfully brought up.
 
-Rev A served as the proof-of-concept platform, while Rev B introduces the production-style hardware, integrated enclosure, improved user interface, and expanded firmware.
+Rev A served as the proof-of-concept platform, while Rev B introduces the production-style hardware, integrated enclosure, 
+improved user interface, and expanded firmware.
 
 ### Verified Hardware
 
@@ -60,7 +61,7 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 
 ## Project Status
 
-**Status:** Release Candidate (Rev-B)
+**Status:** Stable Release (Rev-B)
 
 ## Current Release: Rev-B v1.0.0
 
@@ -71,7 +72,6 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 - OLED display and diagnostics operational
 - Quick, Full and Soak test modes implemented
 - Ongoing expansion of the verified IC library
--------------------------------
 
 ### Hardware Status
 
@@ -81,27 +81,27 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 - Firmware: Stable and operational
 - IC library: Ongoing validation and expansion
 - 
-## Rev-B Firmware Status
+## Firmware Features
 ---
 # Core Features Verified
 
-+ Modular two-board architecture
-+ Separate user-interface board for improved ergonomics and future upgrades
-* Power-On Self Test (POST)
-* MCP23017 detection
-* SSD1306 OLED detection
-* I²C bus diagnostics
-* Package detection (14, 16, 20 pin)
-* DUT voltage detection (3.3V / 5V)
-* Rotary encoder navigation
-* Quick test mode
-* Full test mode
-* Soak 50 mode
-* Soak 500 mode
-* Soak Infinite mode
-* OLED status and error screens
-* Wrong package detection and warning
-* Serial terminal diagnostics
+- Modular two-board architecture
+- Separate user-interface board for improved ergonomics and future upgrades
+- Power-On Self Test (POST)
+- MCP23017 detection
+- SSD1306 OLED detection
+- I²C bus diagnostics
+- Package detection (14, 16, 20 pin)
+- DUT voltage detection (3.3V / 5V)
+- Rotary encoder navigation
+- Quick test mode
+- Full test mode
+- Soak 50 mode
+- Soak 500 mode
+- Soak Infinite mode
+- OLED status and error screens
+- Wrong package detection and warning
+- Serial terminal diagnostics
 
 ## Test Modes
 
@@ -115,12 +115,13 @@ Rev A served as the proof-of-concept platform, while Rev B introduces the produc
 ### Notes
 
 The tester performs a Power-On Self Test (POST) during startup and reports:
-* I²C devices detected
-* MCP23017 status
-* OLED status
-* Selected package size
-* DUT voltage selection
-* TEST button state
+
+- I²C devices detected
+- MCP23017 status
+- OLED status
+- Selected package size
+- DUT voltage selection
+- TEST button state
 Results are displayed on both the serial terminal and OLED display.
 
 ## Ongoing Validation
@@ -132,7 +133,6 @@ Current work focuses on expanding the verified IC library through hardware valid
 - Validate additional 74LS devices
 - Validate remaining supported HC devices
 - Continue expanding the supported IC database
-- Refine OLED user interface
 
 ## Community Contributions
 
@@ -146,13 +146,15 @@ If you implement support for a new device, please include:
 - Quick / Full / Soak results
 
 Verified contributions will be considered for future releases.
+
 ## Getting Started
 
 1. Build the Rev-B hardware.
-2. Flash the supplied MicroPython firmware to the Raspberry Pi Pico.
+2. Install MicroPython on the Raspberry Pi Pico.
 3. Copy `main.py` to the Pico.
 4. Power on the tester.
 5. Select the IC package size, insert the device, and press **TEST**.
+   
 ## Documentation
 The Rev-B platform is feature complete. Ongoing development focuses on expanding the verified IC library and maintaining the firmware, 
 while advanced diagnostic features will be developed in the separate Rev-C project.
@@ -178,17 +180,24 @@ Development of advanced diagnostic features will continue in the separate **Logi
 
 ## Hardware
 
-```text
+```
 hardware/
 ├── revA/
 └── revB/
 ```
-Hardware: CERN-OHL-S v2
 
-Firmware/docs: MIT
+Hardware licensed under **CERN-OHL-S v2**.
+
+Firmware and documentation licensed under the **MIT License**.
 
 ## Acknowledgements
 
-Developed by Otter Designs, New Zealand.
+Developed by **Otter Designs**, New Zealand.
 
-Special thanks to the retro-computing and open-source hardware communities whose projects and documentation helped inspire this tester.
+Inspired by the retro-computing, electronics repair, and open-source hardware communities.
+
+Special thanks to everyone who tests devices, reports issues, and contributes new IC definitions.
+
+---
+
+**If you build one, we'd love to see it! Feel free to share photos, improvements, and additional verified IC definitions through GitHub.**
