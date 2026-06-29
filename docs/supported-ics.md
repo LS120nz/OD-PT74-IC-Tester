@@ -128,8 +128,11 @@ These devices are being moved to the future Rev-C Logic IC Diagnostic Analyzer b
 ## LVC Device Testing
 
 74LVC devices must be tested with the DUT voltage selector set to **3.3V**.
+
 LVC devices are more sensitive to poor socket contact. 
+
 Tarnished IC legs may cause intermittent Soak failures.
+
 The tester can be used to identify common counterfeit, damaged, or non-functional LVC devices by verifying:
 
 * Logic functionality
