@@ -78,8 +78,9 @@ These devices have been tested on real hardware and are known to pass.
 
 | IC       | Function              | Status             | Notes             |
 | -------- | --------------------- | ------------------ | ----------------- |
-| 74LVC245 | Octal bus transceiver | Pending Validation | Test at 3.3V only |
+| 74LVC245 | Octal bus transceiver | Verified at 3.3V | Clean legs required |
 
+LVC devices are more sensitive to poor socket contact. Tarnished IC legs may cause intermittent Soak failures.
 ---
 
 ## Not Yet Tested / No IC Available
