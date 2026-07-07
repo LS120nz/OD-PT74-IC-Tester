@@ -1,0 +1,45 @@
+# Approach bring-up of the Pico 74xx tester Rev-B
+
+Rather than soldering everything at once, build in stages and verify each one.
+
+## Stage 1 — Power
+
+Assemble the power section only.
+Check for shorts before applying power.
+Verify the input voltage.
+Measure the regulated outputs:
+5.0 V
+3.3 V
+
+If those are correct continue to Stage-2
+---
+
+## Stage 2 — Pico
+
+Fit the Pico.
+Confirm it powers correctly.
+Load a simple test program (LED blink or serial output).
+Verify communication.
+
+If that is correct continue on to Stage-3
+---
+
+## Stage 3 — 74xx Logic
+
+Populate one section at a time.
+Check that the logic behaves as expected.
+Confirm there are no unexpected current increases.
+
+If that is correct continue on to Stage-4
+---
+
+## Stage 4 — Full Functional Test
+
+Run through the intended functionality.
+Test a 7400  IC and see if it displays corectly.
+If all seems to work ok test some other IC's in tha 74xx family.
+
+## Stage 5 - Your New Work Bench Tester.
+
+if you want to get a 3D printed case to put it in.
+there is a case design to download and print free on the github.
