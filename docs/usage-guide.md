@@ -1,126 +1,251 @@
-# Pico 74xx IC Tester - User Guide
+# Usage Guide
+
+## Introduction
+
+This guide explains the normal operation of the **Rev-B Pico 74xx IC Tester**.
+
+It covers powering the tester, selecting a device, running tests, interpreting the results, and using the available test modes.
+
+If you have not yet assembled your tester, complete the **Build Guide** before continuing.
 
 ---
 
-## Overview
+## Before you begin
 
-The Pico 74xx IC Tester is a Raspberry Pi Pico-based bench tool for testing common DIP 74xx-series logic ICs.
+Before testing an IC, ensure that:
 
-The tester supports:
+* The hardware has been assembled successfully.
+* The Power-On Self Test (POST) completes without errors.
+* The latest Rev-B firmware is installed.
 
-- 14-pin DIP logic ICs
-- 16-pin DIP logic ICs
-- 20-pin DIP logic ICs
-- 3.3V and 5V logic families
-- USB serial terminal output
-- Optional OLED display output
-
-The tester is intended for checking:
-
-- 74HC series
-- 74HCT series
-- 74LS series
-- compatible logic ICs
+> [!TIP]
+> For your first test, use a known-good **74LS00** or **74HC00**. These devices are common, easy to verify, and ideal for confirming correct operation.
 
 ---
 
-## Safety Notes
+## Powering the tester
 
-### Important
+Connect the tester to a suitable USB power source.
 
-- Never insert or remove ICs while powered if possible.
-- Always select the correct package size before testing.
-- Always select the correct logic voltage before testing.
-- Do not insert chips backwards.
-- Do not test unknown ICs that may not be standard 74xx logic devices.
+On power-up the tester automatically performs the **Power-On Self Test (POST)**.
 
----
+The expected startup sequence is:
 
-## Controls
+1. Splash screen
+2. Power-On Self Test (POST)
+3. Main Menu
 
-### Package Selector
+![POST Screen](../images/ui/01-post-screen.jpg)
 
-Selects the active power and ground pins for the ZIF socket.
+*Figure 1. Power-On Self Test (POST).*
 
-| Position | Package |
-|---|---|
-| 0 | Off    |
-| 1 | 14-pin |
-| 2 | 16-pin |
-| 3 | 20-pin |
-
-The tester automatically detects the selected package.
+If POST reports an error, refer to the **Troubleshooting Guide** before continuing.
 
 ---
 
-### Voltage Selector
+## Your first IC test
 
-Selects DUT (Device Under Test) voltage.
+This example demonstrates a complete test using a **74LS00 Quad 2-Input NAND Gate**.
 
-| Position | Voltage |
-|---|---|
-| 1 | 3.3V |
-| 2 | OFF |
-| 3 | 5V |
+### Step 1 – Select the package
 
-The tester automatically detects the selected voltage.
+Select:
 
----
+* **14-pin DIP**
+* **5 V DUT supply**
 
-### Buttons
+![Package Selection](../images/ui/02-package-selection.jpg)
 
-#### NEXT
-
-Cycles through supported IC types.
-
-(check supported IC list)
-
-#### TEST
-
-Runs the currently selected IC test.
-- Quick Test
-- Full Test
-- Soak 50
-- Soak 500
-- Soak Unlimited
-- Check
+*Figure 2. Package selection.*
 
 ---
 
-## RGB LED Status
+### Step 2 – Select the IC
 
-| LED State | Meaning |
-|---|---|
-| Red | 14-pin mode |
-| Green | 16-pin mode |
-| Blue | 20-pin mode |
-| Blinking Yellow | Voltage OFF |
-| White Flash | Test running |
-| Green Blink | PASS |
-| Red Blink | FAIL |
+Rotate the encoder until **74LS00** is displayed.
+
+Press the encoder to confirm your selection.
+
+![Device Selection](../images/ui/03-device-selection.jpg)
+
+*Figure 3. Device selection.*
 
 ---
 
-## ZIF Socket Usage
+### Step 3 – Insert the IC
 
-### Important
+Open the ZIF socket.
 
-All ICs are inserted aligned to the top of the ZIF socket.
+Insert the IC with **Pin 1** correctly aligned.
 
-Pin 1 must always match the Pin 1 marking on the PCB.
+Close the ZIF socket.
+
+> [!IMPORTANT]
+> Never insert or remove an IC while a test is running.
+
+![IC Installed](../images/ui/04-ic-installed.jpg)
+
+*Figure 4. IC correctly installed.*
 
 ---
 
-### 14-pin IC placement
+### Step 4 – Start the test
 
-Insert the IC into the top 14 socket positions.
+Press the **TEST** button.
 
-Example:
+The tester will execute the selected test sequence.
 
-```text
-Top of socket
-┌─────────────┐
-│ 14-pin IC   │
-│■■■■■■■■■■■■■│
-└─────────────┘
-```
+![Testing](../images/ui/05-testing.jpg)
+
+*Figure 5. Test in progress.*
+
+---
+
+### Step 5 – Review the result
+
+If the IC passes every test, the display reports:
+
+**PASS**
+
+![PASS](../images/ui/06-pass.jpg)
+
+*Figure 6. Successful PASS result.*
+
+Congratulations—your tester is now fully operational.
+
+---
+
+## Main menu
+
+The Main Menu provides access to the tester's operating functions.
+
+Depending on the firmware version, menu options may include:
+
+* Device Selection
+* Test Mode
+* Package Selection
+* DUT Voltage
+* System Information
+* About
+
+![Main Menu](../images/ui/07-main-menu.jpg)
+
+*Figure 7. Main Menu.*
+
+---
+
+## Test modes
+
+The tester provides three operating modes.
+
+### Quick Test
+
+A rapid functional verification suitable for routine testing.
+
+Recommended for checking known devices.
+
+---
+
+### Full Test
+
+Performs a comprehensive functional verification using all available test vectors.
+
+Recommended for unknown or suspect ICs.
+
+---
+
+### Soak Test
+
+Repeatedly tests the selected IC to identify intermittent faults.
+
+Available options:
+
+* 50 cycles
+* 500 cycles
+* Continuous
+
+![Test Mode](../images/ui/08-test-mode.jpg)
+
+*Figure 8. Test mode selection.*
+
+---
+
+## Understanding the results
+
+### PASS
+
+The IC completed every test successfully.
+
+No functional faults were detected.
+
+---
+
+### FAIL
+
+The tester detected one or more unexpected outputs.
+
+Common causes include:
+
+* Faulty IC
+* Incorrect device selected
+* Incorrect package selected
+* Incorrect DUT voltage
+* Poor contact in the ZIF socket
+* Bent or contaminated IC pins
+
+![FAIL](../images/ui/09-fail.jpg)
+
+*Figure 9. FAIL result.*
+
+If a device repeatedly fails, refer to the **Troubleshooting Guide**.
+
+---
+
+## Understanding how the tester works
+
+The Pico 74xx IC Tester performs functional verification by applying predefined logic patterns to the selected device and comparing the observed outputs with the expected truth table for that IC.
+
+Each supported device has its own dedicated test definition, allowing the firmware to verify the logical behaviour of individual gates, counters, registers, decoders, multiplexers, and other digital logic devices.
+
+The tester is intended to verify **functional operation**. It does not perform analogue measurements, propagation delay analysis, or detailed electrical characterisation.
+
+---
+
+## Best practices
+
+For reliable test results:
+
+* Verify the correct package size before inserting an IC.
+* Select the correct DUT supply voltage.
+* Check the orientation of Pin 1.
+* Keep IC pins clean and straight.
+* Test known-good devices before testing suspect ICs.
+* Repeat a test if an intermittent fault is suspected.
+* Use Soak Test mode for long-term stability testing.
+
+---
+
+## Troubleshooting
+
+If the tester does not behave as expected:
+
+* Repeat the test.
+* Confirm the correct IC has been selected.
+* Verify the package size.
+* Verify the DUT supply voltage.
+* Check the IC orientation.
+* Inspect the IC pins for damage or contamination.
+
+If problems persist, consult the **Troubleshooting Guide**.
+
+---
+
+## Next steps
+
+Now that you are familiar with the tester, you may wish to explore the following documentation:
+
+* [Supported ICs](supported-ics.md)
+* [Project Overview](project-overview.md)
+* [Troubleshooting Guide](troubleshooting.md)
+
+Thank you for building and using the **Rev-B Pico 74xx IC Tester**. We welcome feedback, bug reports, and contributions to help expand the supported IC library.
