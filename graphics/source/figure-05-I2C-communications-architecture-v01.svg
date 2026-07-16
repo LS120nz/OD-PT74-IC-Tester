@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="figure-05-I2C-communications-architecture-v01.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="541"
+     inkscape:cy="368.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8"
+     showguides="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="808"
+       y="396"
+       width="7"
+       height="36"
+       id="rect29" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6-7"
+       preserveAspectRatio="xMidYMid"
+       id="pattern25"
+       patternTransform="translate(190,350)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="28.28"
+       height="23.44"
+       patternTransform="translate(190,350)"
+       preserveAspectRatio="xMidYMid"
+       style="fill:#000000"
+       id="pattern6-7"
+       inkscape:label="pattern6-7"
+       inkscape:collect="always"
+       inkscape:isstock="true">
+      <path
+         style="paint-order:stroke markers fill;stop-color:#000000"
+         d="M 0,0        A 20,20 0,0,1 14.14,5.86        A 20,20 0,0,0 28.28,11.72        L 28.28, 23.44        A 20,20 0,0,1 14.14,17.58        A 20,20 0,0,0 0,11.72        L 0,0 "
+         id="path4-2"
+         sodipodi:nodetypes="cc" />
+    </pattern>
+    <linearGradient
+       id="swatch19"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop19" />
+    </linearGradient>
+    <rect
+       x="942"
+       y="681"
+       width="136"
+       height="89"
+       id="rect64" />
+    <rect
+       x="1049"
+       y="735"
+       width="46"
+       height="38"
+       id="rect51" />
+    <rect
+       x="966"
+       y="650"
+       width="38"
+       height="109"
+       id="rect32" />
+    <rect
+       x="69"
+       y="58"
+       width="94"
+       height="67"
+       id="rect25" />
+    <rect
+       x="70"
+       y="58"
+       width="135"
+       height="66"
+       id="rect24" />
+    <rect
+       x="481"
+       y="192"
+       width="93"
+       height="22"
+       id="rect14" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4"
+       transform="translate(79.904167,54.504167)">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,1.0583333,11.1125)"
+         id="text24"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect24);display:inline;fill:#00ffff;stroke:#000000;stroke-width:5.66929;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,1.0583333,11.1125)"
+         id="text25"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25);display:inline;fill:#00ffff;stroke:#000000;stroke-width:5.66929;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:'Arial, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#00ffff;stroke:#000000;stroke-width:1.5"
+         x="181.50418"
+         y="137.05417"
+         id="text28"><tspan
+           sodipodi:role="line"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:'Arial, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.5"
+           x="181.50418"
+           y="137.05417"
+           id="tspan59" /></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-80.433329,-46.037501)"
+         id="text32"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect32);display:inline;fill:#00ffff;stroke:#000000;stroke-width:5.66929" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-80.433329,-46.037501)"
+         id="text51"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect51);display:inline;fill:#00ffff;stroke:#000000;stroke-width:5.66929" />
+      <rect
+         style="fill:#00ffff;stroke:#000000;stroke-width:1.41606;stroke-dasharray:none"
+         id="rect1"
+         width="98.308876"
+         height="24.604708"
+         x="19.002823"
+         y="-31.469051"
+         ry="1.7315418" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#22280b;stroke:none;stroke-width:1.5"
+         x="67.951744"
+         y="-20.649048"
+         id="text1"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+           x="67.951744"
+           y="-20.649048"
+           id="tspan36">Raspberry Pi Pico</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+           x="67.951744"
+           y="-15.357386"
+           id="tspan7">(RP2040)</tspan></text>
+      <rect
+         style="fill:#00ffff;stroke:#000000;stroke-width:1.36192;stroke-dasharray:none"
+         id="rect11"
+         width="79.079102"
+         height="25.019175"
+         x="-62.133537"
+         y="45.204422"
+         ry="1.7652416" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#22280b;stroke:none;stroke-width:1.5;stroke-opacity:1"
+         x="72.031403"
+         y="-35.983341"
+         id="text63"><tspan
+           sodipodi:role="line"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5;stroke-opacity:1"
+           x="72.031403"
+           y="-35.983341"
+           id="tspan1">I²C Communications Architecture</tspan></text>
+      <g
+         id="g5"
+         transform="matrix(0.98434466,0,0,0.75978546,22.084201,-2.4470404)">
+        <rect
+           style="fill:#00ffff;stroke:#000000;stroke-width:1.5;stroke-dasharray:none"
+           id="rect2"
+           width="80"
+           height="30"
+           x="6.4706788"
+           y="12.05978"
+           ry="2.1166666" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89512px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#22280b;stroke:none;stroke-width:2.3992"
+           x="40.213608"
+           y="25.722923"
+           id="text4"
+           transform="scale(1.0359528,0.96529495)"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89512043px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:2.3992"
+             x="40.213608"
+             y="25.722923"
+             id="tspan5">I²C Bus</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89512043px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:2.3992"
+             x="40.213608"
+             y="33.326038"
+             id="tspan8">(SDA / SCL)</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1.42746"
+         x="-24.755337"
+         y="55.668938"
+         id="text16"
+         transform="scale(1.0343834,0.96675952)"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:1.42746"
+           x="-24.755337"
+           y="55.668938"
+           id="tspan12">MCP23017</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:1.42746"
+           x="-24.755337"
+           y="60.915886"
+           id="tspan19">I/O Expander</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:1.42746"
+           x="-24.755337"
+           y="66.162834"
+           id="tspan20">0x20</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-79.904167,-54.504167)"
+         id="text64"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect64);display:inline;fill:#00ffff;stroke:#000000;stroke-width:5.66929" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#22280b;stroke:none;stroke-width:1.5"
+         x="60.324997"
+         y="-44.714584"
+         id="text65"><tspan
+           sodipodi:role="line"
+           id="tspan65"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+           x="60.324997"
+           y="-44.714584">Figure 5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke:none;stroke-width:1.5"
+         x="191.82291"
+         y="148.69583"
+         id="text66"><tspan
+           sodipodi:role="line"
+           id="tspan66"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:'Arial, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:1.5"
+           x="191.82291"
+           y="148.69583">Rev-B v1.0.0</tspan></text>
+      <path
+         style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="M 66.531453,-6.4992063 66.686249,7.2929546"
+         id="path8" />
+      <path
+         style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:1.14374;stroke-linejoin:bevel"
+         d="m 66.410414,29.36875 v 6.614583"
+         id="path9" />
+      <path
+         style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linejoin:bevel"
+         d="m -25.400006,103.98125 v 11.64167"
+         id="path10" />
+      <g
+         id="g3"
+         transform="matrix(0.97798607,0,0,0.83609439,116.23672,35.431127)">
+        <rect
+           style="fill:#00ffff;stroke:#000000;stroke-width:1.5;stroke-dasharray:none"
+           id="rect3"
+           width="80"
+           height="30"
+           x="6.7452068"
+           y="11.121206"
+           ry="2.1166666" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.68154px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#22280b;stroke:none;stroke-width:1.5"
+           x="45.874519"
+           y="21.497072"
+           id="text3"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.68153718px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+             x="45.874519"
+             y="21.497072"
+             id="tspan16">OLED Display</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.68153718px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+             x="45.874519"
+             y="27.670361"
+             id="tspan17">SSD1306</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.68153718px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+             x="45.874519"
+             y="33.843647"
+             id="tspan18">0x3C</tspan></text>
+      </g>
+      <path
+         style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:1.39659;stroke-linejoin:bevel"
+         d="M -24.60616,35.574772 V 45.43583"
+         id="path3" />
+      <g
+         id="g8"
+         transform="matrix(0.98434466,0,0,0.75978546,-70.25538,74.282126)">
+        <rect
+           style="fill:#00ffff;stroke:#000000;stroke-width:1.5;stroke-dasharray:none"
+           id="rect6"
+           width="80"
+           height="30"
+           x="5.9330959"
+           y="11.711546"
+           ry="2.1166666" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89512px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#22280b;stroke:none;stroke-width:1.5"
+           x="46.268108"
+           y="27.851269"
+           id="text6"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89512px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#22280b;stroke:none;stroke-width:1.5"
+             x="46.268108"
+             y="27.851269"
+             id="tspan6">ZIF Test Interface</tspan></text>
+      </g>
+      <g
+         id="g9"
+         transform="matrix(0.98434466,0,0,0.75978546,-70.519964,105.23838)">
+        <rect
+           style="fill:#00ffff;stroke:#000000;stroke-width:1.5;stroke-dasharray:none"
+           id="rect8"
+           width="80"
+           height="30"
+           x="5.9330959"
+           y="11.711546"
+           ry="2.1166666" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51704px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:72.7407;display:inline;fill:#22280b;stroke:none;stroke-width:1.5"
+           x="46.268108"
+           y="27.851269"
+           id="text37"
+           transform="matrix(1.1744095,0,0,1,-10.109578,-0.34823429)"><tspan
+             x="46.268108"
+             y="27.851269"
+             id="tspan2">ZIF Socket</tspan></text>
+      </g>
+      <path
+         style="fill:#fefefe;fill-opacity:1;stroke:#000000;stroke-width:1.37551;stroke-linejoin:bevel"
+         d="m 160.33748,34.660414 v 9.789587"
+         id="path11" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-79.904167,-54.504167)"
+         id="text29"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect29);display:inline;fill:#000000;stroke:#000000;stroke-width:7.55906;stroke-linejoin:bevel" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.5;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="m -25.135417,70.643747 -0.264584,11.90625"
+         id="path30" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.64449;stroke-linejoin:bevel;stroke-dasharray:none"
+         d="M -25.39852,35.356358 161.12975,34.758221"
+         id="path32" />
+    </g>
+  </g>
+</svg>
