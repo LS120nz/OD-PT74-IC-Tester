@@ -44,9 +44,9 @@ Major hardware subsystems include:
 * DUT voltage selection
 * Package selection
 
-> **📷 Diagram Placeholder**
->
-> *Overall hardware architecture block diagram*
+![System architecture](../graphics/exports/figure-01-system-architecture.png "Figure 1")
+
+*Figure 1. System architecture of the Rev-B Pico 74xx IC Tester.*
 
 ---
 
