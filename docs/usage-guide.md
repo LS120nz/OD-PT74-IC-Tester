@@ -35,6 +35,8 @@ The expected startup sequence is:
 2. Power-On Self Test (POST)
 3. Main Menu
 
+The startup sequence is illustrated in Figure 1.
+
 ![POST Screen](../images/ui/01-post-screen.jpg)
 
 *Figure 1. Power-On Self Test (POST).*
@@ -54,6 +56,8 @@ Select:
 * **14-pin DIP**
 * **5 V DUT supply**
 
+Figure 2 shows the package selection screen.
+
 ![Package Selection](../images/ui/02-package-selection.jpg)
 
 *Figure 2. Package selection.*
@@ -65,6 +69,8 @@ Select:
 Rotate the encoder until **74LS00** is displayed.
 
 Press the encoder to confirm your selection.
+
+Figure 3 shows the device selection screen.
 
 ![Device Selection](../images/ui/03-device-selection.jpg)
 
@@ -83,6 +89,8 @@ Close the ZIF socket.
 > [!IMPORTANT]
 > Never insert or remove an IC while a test is running.
 
+Figure 4 illustrates the correct orientation of the IC in the ZIF socket.
+
 ![IC Installed](../images/ui/04-ic-installed.jpg)
 
 *Figure 4. IC correctly installed.*
@@ -94,6 +102,8 @@ Close the ZIF socket.
 Press the **TEST** button.
 
 The tester will execute the selected test sequence.
+
+Figure 5 shows a test currently in progress.
 
 ![Testing](../images/ui/05-testing.jpg)
 
@@ -107,6 +117,8 @@ If the IC passes every test, the display reports:
 
 **PASS**
 
+A successful test result is shown in Figure 6.
+
 ![PASS](../images/ui/06-pass.jpg)
 
 *Figure 6. Successful PASS result.*
@@ -119,7 +131,7 @@ Congratulations—your tester is now fully operational.
 
 The Main Menu provides access to the tester's operating functions.
 
-Depending on the firmware version, menu options may include:
+Depending on the installed firmware version, the Main Menu may provide access to:
 
 * Device Selection
 * Test Mode
@@ -127,6 +139,8 @@ Depending on the firmware version, menu options may include:
 * DUT Voltage
 * System Information
 * About
+
+Figure 7 shows the Main Menu.
 
 ![Main Menu](../images/ui/07-main-menu.jpg)
 
@@ -164,6 +178,8 @@ Available options:
 * 500 cycles
 * Continuous
 
+Figure 8 illustrates the test mode selection menu.
+
 ![Test Mode](../images/ui/08-test-mode.jpg)
 
 *Figure 8. Test mode selection.*
@@ -193,6 +209,8 @@ Common causes include:
 * Poor contact in the ZIF socket
 * Bent or contaminated IC pins
 
+An example FAIL result is shown in Figure 9.
+
 ![FAIL](../images/ui/09-fail.jpg)
 
 *Figure 9. FAIL result.*
@@ -203,15 +221,17 @@ If a device repeatedly fails, refer to the **Troubleshooting Guide**.
 
 ## Understanding how the tester works
 
-The Pico 74xx IC Tester performs functional verification by applying predefined logic patterns to the selected device and comparing the observed outputs with the expected truth table for that IC.
+The Pico 74xx IC Tester performs functional verification by applying predefined logic patterns to the selected device and comparing the observed outputs with the expected truth table.
 
-Each supported device has its own dedicated test definition, allowing the firmware to verify the logical behaviour of individual gates, counters, registers, decoders, multiplexers, and other digital logic devices.
-
-The tester is intended to verify **functional operation**. It does not perform analogue measurements, propagation delay analysis, or detailed electrical characterisation.
+The overall operating sequence is illustrated in Figure 10.
 
 ![Test Execution Flow](../graphics/exports/figure-04-test-execution-flow.png)
 
-*Figure 4. Test Execution Flow of the Rev-B Pico 74xx IC Tester.*
+*Figure 10. Test execution flow of the Rev-B Pico 74xx IC Tester.*
+
+Each supported device has its own dedicated test definition, allowing the firmware to verify the logical behaviour of individual gates, counters, registers, decoders, multiplexers, and other digital logic devices.
+
+The tester is intended to verify functional operation. It does not perform analogue measurements, propagation delay analysis, or detailed electrical characterisation.
 
 ---
 
@@ -252,4 +272,4 @@ Now that you are familiar with the tester, you may wish to explore the following
 * [Project Overview](project-overview.md)
 * [Troubleshooting Guide](troubleshooting.md)
 
-Thank you for building and using the **Rev-B Pico 74xx IC Tester**. We welcome feedback, bug reports, and contributions to help expand the supported IC library.
+Thank you for building and using the Rev-B Pico 74xx IC Tester. Feedback, bug reports, and contributions are always welcome as the project continues to evolve.
