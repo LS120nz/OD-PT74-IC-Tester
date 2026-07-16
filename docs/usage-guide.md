@@ -209,6 +209,10 @@ Each supported device has its own dedicated test definition, allowing the firmwa
 
 The tester is intended to verify **functional operation**. It does not perform analogue measurements, propagation delay analysis, or detailed electrical characterisation.
 
+![Test Execution Flow](../graphics/exports/figure-04-test-execution-flow.png)
+
+*Figure 4. Test Execution Flow of the Rev-B Pico 74xx IC Tester.*
+
 ---
 
 ## Best practices

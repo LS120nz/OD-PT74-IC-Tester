@@ -44,7 +44,9 @@ Major hardware subsystems include:
 * DUT voltage selection
 * Package selection
 
-![System architecture](../graphics/exports/figure-01-system-architecture.png "Figure 1")
+The relationship between the major hardware subsystems is illustrated in Figure 1.
+
+![System architecture](../graphics/exports/figure-01-system-architecture.png)
 
 *Figure 1. System architecture of the Rev-B Pico 74xx IC Tester.*
 
@@ -81,6 +83,12 @@ This provides several advantages:
 
 Using the MCP23017 also allows the firmware to remain modular and simplifies future expansion.
 
+Figure 5 illustrates how the RP2040 communicates with the MCP23017 and OLED display over the I²C bus.
+
+![I²C Communications Architecture](../graphics/exports/figure-05-i2c-communications-architecture.png)
+
+*Figure 5. I²C Communication Architecture of the Rev-B Pico 74xx IC Tester.*
+
 ---
 
 ## Power system
@@ -98,6 +106,12 @@ The DUT supply voltage is selectable:
 This allows the tester to support both modern CMOS devices and traditional TTL logic families.
 
 The power supply section is assembled and verified before the remainder of the board to simplify fault finding during construction.
+
+Figure 2 shows the distribution of the 5 V and 3.3 V power rails throughout the tester.
+
+![Power architecture](../graphics/exports/figure-02-power-architecture.png)
+
+*Figure 2. Power architecture of the Rev-B Pico 74xx IC Tester.*
 
 ---
 
@@ -121,6 +135,12 @@ The tester supports:
 * 20-pin DIP
 
 using conventional 74xx-series power pin arrangements.
+
+Figure 6 shows the signal path from the MCP23017 through the ZIF driver circuitry to the Device Under Test (DUT).
+
+![DUT Interface Architecture](../graphics/exports/figure-06-dut-interface-architecture.png)
+
+*Figure 6. DUT interface architecture of the Rev-B Pico 74xx IC Tester.*
 
 ---
 
@@ -198,6 +218,12 @@ The hardware has been designed to work closely with the modular firmware archite
 Hardware-specific drivers are separated from the test engine and IC definitions, allowing new devices to be added with minimal impact on the core firmware.
 
 This modular approach simplifies maintenance and future firmware enhancements.
+
+The overall firmware structure is illustrated in Figure 3.
+
+![Firmware architecture](../graphics/exports/figure-03-firmware-architecture.png)
+
+*Figure 3. Firmware architecture of the Rev-B Pico 74xx IC Tester.*
 
 ---
 
