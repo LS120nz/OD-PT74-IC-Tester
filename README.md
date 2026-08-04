@@ -312,4 +312,4 @@ Examples include:
 
 This approach helps ensure the project remains buildable, maintainable and adaptable for many years to come.
 
-| [✅ Bring-up Checklist](docs/development/Bringup-Checklist.md) | Hardware verification checklist |
+| [✅ Bring-up Checklist](docs/development/bringup-checklist.md) | Hardware verification checklist |
