@@ -1,0 +1,16 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"BZ1";"Buzzer_15x7.5RM7.6";1;"Active Piezo Buzzer";;;
+2;"D1, D3";"LED_D3.0mm";2;"LED";;;
+3;"D2";"LED_D5.0mm-4_RGB_Staggered_Pins";1;"LED_BRKG";;;
+4;"J2";"OLED_128x64";1;"OLED_128x64";;;
+5;"J3";"PinHeader_2x10_P2.54mm_Vertical";1;"Power header";;;
+6;"J4";"PinHeader_1x16_P2.54mm_Vertical";1;"pin 1-16_ziff";;;
+7;"J5";"PinHeader_1x16_P2.54mm_Vertical";1;"pin 17-20_ziff";;;
+8;"J6";"DIP_Socket-20_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_220-3342-00-0602J";1;"Ziff";;;
+9;"J7";"PinHeader_1x03_P2.54mm_Horizontal";1;"buzzer power";;;
+10;"J8";"PinHeader_1x03_P2.54mm_Vertical";1;"RGB-header1";;;
+11;"J9";"PinHeader_1x03_P2.54mm_Vertical";1;"RGB-header2";;;
+12;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"1k";;;
+13;"R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"330R";;;
+14;"SW1";"SW_PUSH_6mm";1;"Test";;;
+15;"SW2";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm";1;"RotaryEncoder_Switch_MP";;;

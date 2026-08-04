@@ -1,0 +1,26 @@
+### Footprint positions - created on 2026-07-30T19:43:29 ###
+### Printed by KiCad version 10.0.0
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                      Package                                                                          PosX       PosY       Rot  Side
+BZ1       Active_Piezo_Buzzer      Buzzer_15x7.5RM7.6                                                           133.6400   -71.6600    0.0000  top
+D1        LED                      LED_D3.0mm                                                                    96.8400   -52.2200  180.0000  top
+D2        LED_BRKG                 LED_D5.0mm-4_RGB_Staggered_Pins                                              115.4760  -103.8260   90.0000  top
+D3        LED                      LED_D3.0mm                                                                   104.2400   -52.2500  180.0000  top
+H1        MountingHole             MountingHole_3.2mm_M3                                                         97.5816  -113.6179    0.0000  top
+H2        MountingHole             MountingHole_3.2mm_M3                                                        187.2241   -61.7754    0.0000  top
+H3        MountingHole             MountingHole_3.2mm_M3                                                        125.5724   -52.5500    0.0000  top
+H4        MountingHole             MountingHole_3.2mm_M3                                                        186.5500  -125.6316    0.0000  top
+J2        OLED_128x64              OLED_128x64                                                                  166.0000   -74.0000  180.0000  top
+J3        Power_header             PinHeader_2x10_P2.54mm_Vertical                                               96.0500   -84.2124    0.0000  top
+J4        pin_1-16_ziff            PinHeader_1x16_P2.54mm_Vertical                                              142.9418  -136.9848   90.0000  top
+J5        pin_17-20_ziff           PinHeader_1x16_P2.54mm_Vertical                                              181.0000   -50.7500  -90.0000  top
+J6        Ziff                     DIP_Socket-20_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_220-3342-00-0602J   150.1400  -106.6200   90.0000  top
+J7        buzzer_power             PinHeader_1x03_P2.54mm_Horizontal                                            118.3800   -78.9000   90.0000  top
+J8        RGB-header1              PinHeader_1x03_P2.54mm_Vertical                                              125.2500  -101.2300   90.0000  top
+J9        RGB-header2              PinHeader_1x03_P2.54mm_Vertical                                              125.3900   -92.5300   90.0000  top
+R1        1k                       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                             115.7900   -54.3300  180.0000  top
+R2        330R                     R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                             115.7600   -51.1700  180.0000  top
+SW1       Test                     SW_PUSH_6mm                                                                  151.0000  -126.5000  180.0000  top
+SW2       RotaryEncoder_Switch_MP  RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm                               178.0000  -127.0000  180.0000  top
+## End

@@ -1,23 +1,62 @@
-# Pico 74xx IC Tester
+# OD-PT74
+
+Pico 74xx Logic IC Tester
+
+OD-PT74 is the first bench instrument in the Otter Designs Test Equipment family.
+
+![Release](https://img.shields.io/badge/Release-v1.0.0-success.svg)
+![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen.svg)
+![Firmware](https://img.shields.io/badge/Firmware-MicroPython-blue.svg)
+![MCU](https://img.shields.io/badge/MCU-RP2040-red.svg)
+![Code: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
+![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
 
 An open-source bench instrument for testing classic 74xx-series logic ICs.
 
-![Pico 74xx IC Tester](images/enclosure/RevB-Case-top.jpg)
+![OD-PT74 Tester](docs/images/build/hero2.jpg)
 
-*Rev-B hardware installed in the production enclosure.*
+*OD-PT74 Pico 74xx IC Tester installed in the production enclosure.*
 
-![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
-![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
+![Made in New Zealand](https://img.shields.io/badge/Made%20in-New%20Zealand-blue.svg)
 
 ---
 
 ## Overview
 
-The Pico 74xx IC Tester is a Raspberry Pi Pico (RP2040) based instrument designed to test common 74xx logic ICs used in retro-computing, electronics repair, education, and hobby projects.
+The OD-PT74 Pico 74xx IC Tester is a Raspberry Pi Pico (RP2040) based instrument designed to test common 74xx logic ICs used in retro-computing, electronics repair, education, and hobby projects.
 
-The Rev-B platform combines dedicated hardware, a graphical OLED user interface, and modular MicroPython firmware to provide fast, repeatable testing of common logic devices in a compact desktop instrument.
+The Rev-C platform combines dedicated hardware, a graphical OLED user interface, and modular MicroPython firmware to provide fast, repeatable testing of common logic devices in a compact desktop instrument.
 
 Current support focuses on standard 14-pin, 16-pin, and 20-pin DIP devices from the 74LS, 74HC, 74HCT and selected compatible logic families.
+
+## 🚀 Quick Start
+
+1. Download or clone this repository.
+2. Install **Thonny** from https://thonny.org
+3. Install **MicroPython** onto your Raspberry Pi Pico.
+4. Copy the following files to the Pico:
+   - `main.py`
+   - `ssd1306.py`
+5. Power up the tester.
+6. Verify the POST completes successfully.
+7. Start testing ICs!
+
+For detailed installation instructions, see the **Documentation Index** or jump directly to one of the guides below.
+
+---
+
+## Documentation
+
+| Section | Description |
+|---------|-------------|
+| [📖 Documentation Index](docs/README.md) | Browse all project documentation |
+| [🚀 Getting Started](docs/guides/getting-started.md) | First-time setup |
+| [🔧 Build Guide](docs/guides/build-guide.md) | Hardware assembly |
+| [🔧 Front Panel Wiring Guide](docs/guides/Switch-Wiring-guide.md)
+| [💾 Firmware Guide](docs/guides/firmware-guide.md) | Install and update the firmware |
+| [▶️ Usage Guide](docs/guides/usage-guide.md) | Operating the tester |
+| [🧩 Supported ICs](docs/guides/supported-ics.md) | Supported logic device library |
+| [🛠 Troubleshooting Guide](docs/guides/troubleshooting-guide.md) | Diagnose common issues |
 
 ---
 
@@ -36,6 +75,26 @@ Current support focuses on standard 14-pin, 16-pin, and 20-pin DIP devices from 
 
 ---
 
+## Gallery
+
+![Pico 74xx IC Tester](docs/images/usage/16c-.jpg)
+
+*Figure 1. Full functional test in progress.*
+
+* 
+![Pico 74xx IC Tester](docs/images/testing/15c-.jpg)
+
+*Figure 2. OLED displaying a successful PASS result.*
+
+![Pico 74xx IC Tester](docs/images/testing/20c-.jpg)
+
+*Figure 3. OLED displaying a FAIL result.*
+
+![Pico 74xx IC Tester](docs/images/testing/15t-.jpg)
+
+*Figure 4. USB serial diagnostic output in Thonny.*
+
+
 ## Hardware Summary
 
 | Feature      | Specification                            |
@@ -52,9 +111,12 @@ Current support focuses on standard 14-pin, 16-pin, and 20-pin DIP devices from 
 
 ## Current Release
 
-**Release:** Rev-B v1.0.0
+Hardware PCB Revision: Rev-C
+Firmware Version: v1.0.0
 
-Rev-B is the current production hardware and is considered feature complete.
+This is the first public release of the OD-PT74.
+
+Earlier PCB revisions (Rev-A and Rev-B) were internal development prototypes and were never publicly released.
 
 The project is now focused on:
 
@@ -63,13 +125,15 @@ The project is now focused on:
 * documentation improvements
 * community contributions
 
-Advanced diagnostic capabilities are planned for the separate Rev-C Logic IC Diagnostic Analyzer project.
+Advanced diagnostic capabilities are planned for the separate Logic IC Diagnostic Analyzer project.
 
 ---
 
 ## Hardware
 
-Rev-B introduces a production-quality hardware platform featuring:
+Designed for through-hole construction using readily available components with a few SMDs.
+
+Rev-C introduces a production-quality hardware platform featuring:
 
 * Raspberry Pi Pico controller
 * 20-pin ZIF socket
@@ -82,6 +146,8 @@ Rev-B introduces a production-quality hardware platform featuring:
 * RGB status LED
 * Audible buzzer
 * Shared I²C bus architecture
+* 5 V power indicator LED
+* 3.3 V power indicator LED
 
 GPIO protection is provided through series resistors and clamp diodes to improve robustness during normal operation.
 
@@ -133,7 +199,7 @@ Diagnostic information is displayed on both the OLED and the USB serial console.
 
 ## Getting Started
 
-1. Assemble the Rev-B hardware.
+1. Assemble the hardware.
 2. Install MicroPython on the Raspberry Pi Pico.
 3. Copy the firmware to the Pico.
 4. Power on the tester.
@@ -144,26 +210,13 @@ Diagnostic information is displayed on both the OLED and the USB serial console.
 
 ---
 
-## Documentation
-
-Additional documentation is available in the `docs/` directory, including:
-
-* Build Guide
-* Usage Guide
-* Supported ICs
-* Bring-up Checklist
-* Troubleshooting Guide
-* Rev-B Roadmap
-
----
-
 ## Project Evolution
 
-| Revision | Purpose                                                                              |
-| -------- | ------------------------------------------------------------------------------------ |
-| Rev-A    | Proof-of-concept platform used to validate the electronics and firmware architecture |
-| Rev-B    | Production bench instrument intended for everyday use                                |
-| Rev-C    | Future advanced logic IC diagnostic platform                                         |
+| Revision | Description                                    |
+| -------- | ---------------------------------------------- |
+| Rev-A    | First public production release of the OD-PT74 |
+
+Earlier prototype revisions were used during development and are documented in the project history.
 
 ---
 
@@ -171,17 +224,27 @@ Additional documentation is available in the `docs/` directory, including:
 
 ```text
 hardware/
-├── RevA/
-└── RevB/
-
 firmware/
+graphics/
+images/
+templates/
 
 docs/
+├── README.md
+├── guides/
+├── reference/
+├── development/
+├── archive/
+└── images/
 
-images/
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
 ```
 
 ---
+
 
 ## Contributing
 
@@ -217,8 +280,36 @@ See the LICENSE file for details.
 
 Developed by **Otter Designs**, New Zealand.
 
-Special thanks to everyone who tests hardware, validates IC definitions, reports issues, and contributes improvements to the project.
+If you build an OD-PT74, we'd love to see it! Share your photos, improvements, verified IC definitions, or project ideas by opening an issue or discussion on GitHub.
 
 ---
 
-If you build a Pico 74xx IC Tester, we'd love to see it. Feel free to share photos, improvements, and verified IC definitions through GitHub.
+## Project Reference
+
+| Document | Description |
+|----------|-------------|
+| [📐 Project Overview](docs/reference/project-overview.md) | Project goals and architecture |
+| [📘 Hardware Design Guide](docs/reference/hardware-design-guide.md) | Hardware architecture and design |
+| [📝 Documentation Style Guide](docs/reference/documentation-style-guide.md) | Documentation standards |
+
+## Development
+
+| Document | Description |
+|----------|-------------|
+| [📅 Milestones](docs/development/milestones.md) | Project progress and milestones |
+
+## Project Preservation
+
+Where practical, the OD-PT74 repository includes the original source files used to create the project.
+
+Examples include:
+
+- KiCad PCB source
+- FreeCAD enclosure source
+- SVG diagrams
+- Firmware source code
+- Documentation source
+
+This approach helps ensure the project remains buildable, maintainable and adaptable for many years to come.
+
+| [✅ Bring-up Checklist](docs/development/bringup-checklist.md) | Hardware verification checklist |

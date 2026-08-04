@@ -1,69 +1,32 @@
-# Pico Tester Firmware
+# Firmware
 
-Firmware files for the Pico 74xx IC Tester.
+This directory contains the firmware for the **OD-PT74 Pico 74xx Logic IC Tester**.
 
-## File List
+## Supported Hardware
 
-# Firmware Versions
+- Hardware Revision: Rev-C
+- Firmware Version: v1.0.0
 
-## Rev-A
+## Files
 
-**main.py**
+| File | Description |
+|------|-------------|
+| `main.py` | Main OD-PT74 application firmware |
+| `ssd1306.py` | SSD1306 OLED display driver |
 
-Original Final Rev-A firmware release.
+## Installation
 
-Features:
+1. Install MicroPython on the Raspberry Pi Pico.
+2. Copy `main.py` to the Pico.
+3. Copy `ssd1306.py` to the Pico.
+4. Reboot the Pico.
 
-- USB terminal interface
-- IC test framework
-- MCP23017 support
-- Basic user interface
-
----
-
-## Rev-B1 & B1a
-
-**main_rev_b1a.py**
-
-Major user-interface update.
-
-Features:
-
-- SSD1306 OLED support
-- Power-On Self Test (POST)
-- Rotary encoder menu
-- Quick / Full / Soak test modes
-- Improved IC selection
-- Improved diagnostics
-
----
-
-## Rev-B2
-
-**main_rev_b2.py**
-
-Statistics and record-keeping release.
-
-Features:
-
-- Session PASS counter
-- Session FAIL counter
-- Lifetime PASS counter
-- Lifetime FAIL counter
-- Last tested device record
-- Persistent stats.json storage
-- OLED result statistics display
-
----
-
-Current recommended version:
-
-**Rev-B2**
-
-rename the "main_rev_b2_stable.py" to just "main.py" so it can be copied to the pico.
+The firmware will start automatically.
 
 ## Notes
 
-* Rev-A firmware is retained for reference.
-* Rev-B.1 Stable is the recommended firmware for current hardware.
-* Future development will continue from the Rev-B firmware branch.
+This firmware is intended for the Rev-C OD-PT74 hardware.
+
+*Copyright © 2026 Otter Designs*
+
+OD-PT74 Firmware v1.0.0

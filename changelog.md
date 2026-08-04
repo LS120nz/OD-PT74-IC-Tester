@@ -6,7 +6,7 @@ The project follows a hardware revision (Rev-A, Rev-B, etc.) combined with seman
 
 ---
 
-## Rev-B v1.0.0 — Initial Public Release
+## Rev-C v1.0.0 — Initial Public Release
 
 ### Highlights
 
@@ -16,11 +16,29 @@ The project follows a hardware revision (Rev-A, Rev-B, etc.) combined with seman
 * Comprehensive project documentation
 * Open-source hardware and firmware published on GitHub
 
+v1.0.0
+-------
+• First public release.
+• Hardware Rev-C.
+• Firmware v1.0.
+
+
 ### Added
 
 #### Hardware
 
-* Rev-B production PCB
+Rev-C Hardware
+--------------
+• BAT54S footprint corrected.
+• SDA/SCL routing corrected.
+• Two power LEDs.
+• Piezo 3.3 V / 5 V links.
+• Enclosure updated.
+• Front panel updated.
+
+Rev-B Hardware
+--------------
+* Rev-B PCB.s
 * Raspberry Pi Pico (RP2040) controller
 * MCP23017 I/O expander
 * 20-pin ZIF socket
@@ -117,3 +135,12 @@ Early validation covered representative devices including:
 * Shift registers
 
 Rev-A successfully validated the overall hardware architecture and provided the foundation for the Rev-B production design.
+
+Rev-B
+Corrected BAT54S clamp-diode rail connections. Original layout connected pin 1 to +3.3 V and pin 2 to GND, 
+causing excessive current draw and collapse of the 3.3 V rail. Correct wiring is pin 1 to GND, pin 2 to +3.3 V, 
+and pin 3 to the protected GPIO.
+
+Rev-B PCB:
+- MCP23017 SDA/SCL swapped.
+- Correct by swapping MCP pins 12 and 13 (or PCB tracks).
