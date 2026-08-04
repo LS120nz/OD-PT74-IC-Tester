@@ -184,6 +184,7 @@ The IC passed the basic functional tests.
 ### FAIL
 
 The IC failed one or more functional tests...
+
 ---
 
 ## Full Test
@@ -248,7 +249,7 @@ As the IC reaches its normal operating temperature, faults that do not appear du
 
 Figure 21 - failed IC test.
 
-If a test reports FAIL, the IC did not pass one or more functional checks.
+If a test reports FAIL then the IC did not pass one or more functional checks.
 
 For additional diagnostic information, connect the Raspberry Pi Pico USB port to your computer and view the serial output in Thonny or another serial terminal.
 

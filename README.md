@@ -214,7 +214,7 @@ Diagnostic information is displayed on both the OLED and the USB serial console.
 
 | Revision | Description                                    |
 | -------- | ---------------------------------------------- |
-| Rev-A    | First public production release of the OD-PT74 |
+| Rev-C    | First public production release of the OD-PT74 |
 
 Earlier prototype revisions were used during development and are documented in the project history.
 
@@ -296,7 +296,7 @@ If you build an OD-PT74, we'd love to see it! Share your photos, improvements, v
 
 | Document | Description |
 |----------|-------------|
-| [📅 Milestones](docs/development/milestones.md) | Project progress and milestones |
+| [📅 Milestones](docs/development/Milestones.md) | Project progress and milestones |
 
 ## Project Preservation
 
@@ -312,4 +312,4 @@ Examples include:
 
 This approach helps ensure the project remains buildable, maintainable and adaptable for many years to come.
 
-| [✅ Bring-up Checklist](docs/development/bringup-checklist.md) | Hardware verification checklist |
+| [✅ Bring-up Checklist](docs/development/Bringup-Checklist.md) | Hardware verification checklist |
