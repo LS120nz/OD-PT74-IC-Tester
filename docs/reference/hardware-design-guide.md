@@ -97,7 +97,7 @@ Using the MCP23017 also allows the firmware to remain modular and simplifies fut
 
 Figure 2 illustrates how the RP2040 communicates with the MCP23017 and OLED display over the I²C bus.
 
-![I²C Communications Architecture](../../graphics/exports/figure-05-i2c-communications-architecture.png)
+![I²C Communications Architecture](../../graphics/exports/figure-05-communications-architecture.png)
 
 *Figure 2. I²C Communication Architecture of the OD-PT74 Pico 74xx Logic IC Tester.*
 
