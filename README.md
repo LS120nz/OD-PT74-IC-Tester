@@ -11,6 +11,12 @@ OD-PT74 is the first bench instrument in the Otter Designs Test Equipment family
 ![Code: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)
 ![Hardware: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange.svg)
 
+## PCB Manufacturing
+
+Production-ready PCBs are available from the PCBWay Shared Project.
+
+➡️ https://www.pcbway.com/project/shareproject/OD_PT74_Logic_IC_Tester_728014b9.html
+
 An open-source bench instrument for testing classic 74xx-series logic ICs.
 
 ![OD-PT74 Tester](docs/images/build/hero2.jpg)

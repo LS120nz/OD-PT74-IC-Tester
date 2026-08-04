@@ -1,0 +1,73 @@
+OD-PT74 PCBWay Shared Project
+Project Title
+
+OD-PT74 Logic IC Tester
+
+Short Description
+-------------------
+The OD-PT74 is an open-source RP2040-based 74xx TTL and CMOS logic IC tester designed for hobbyists, repair technicians and electronics enthusiasts. It supports 14, 16 and 20-pin DIP devices and features an intuitive OLED display with rotary encoder navigation. Complete firmware, hardware source, enclosure files and build documentation are available on GitHub.
+
+Features
+----------
+Supports 14, 16 and 20-pin DIP logic ICs
+Supports both TTL and CMOS logic families
+RP2040 microcontroller
+OLED display
+Rotary encoder user interface
+Quick, Full and Soak test modes
+Open-source firmware
+KiCad hardware source included
+FreeCAD enclosure source included
+Complete build documentation
+
+GitHub Repository
+----------------
+GitHub Repository Contents:
+
+Firmware source
+Hardware source (KiCad)
+Gerber files
+BOM files
+Pick & Place files
+FreeCAD enclosure source
+STL files
+3MF files
+Build Guide
+Front Panel Wiring Guide
+Hardware Design Guide
+Troubleshooting Guide
+
+PCBWay Files
+--------------
+This Shared Project provides the production-ready manufacturing files for both PCBs used by the OD-PT74:
+
+• Base Board
+• Top Board
+
+Each board includes:
+• Gerber files
+• Bill of Materials (BOM)
+• Pick & Place files
+
+GitHub
+--------
+The complete project, including firmware, documentation, CAD files and future updates, is available on GitHub:
+
+https://github.com/LS120nz/OD-PT74-IC-Tester
+Please visit the GitHub repository for firmware updates, documentation and future hardware revisions.
+
+Notes
+--------
+This project is fully open source.
+
+Complete documentation, firmware updates and future revisions will always be available from the GitHub repository.
+
+Photos to Upload
+-----------------
+Hero image
+Assembled tester
+Internal assembly
+Top PCB
+Base PCB
+
+This project is released as open-source hardware. Contributions, improvements and additional device support are welcome through the GitHub repository.
