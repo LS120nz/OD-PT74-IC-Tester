@@ -29,7 +29,7 @@ An open-source bench instrument for testing classic 74xx-series logic ICs.
 
 ## Overview
 
-The OD-PT74 Pico 74xx IC Tester is a Raspberry Pi Pico (RP2040) based instrument designed to test common 74xx logic ICs used in retro-computing, electronics repair, education, and hobby projects.
+The OD-PT74 Pico 74xx IC Tester is a Raspberry Pi Pico 2 (RP2040) based instrument designed to test common 74xx logic ICs used in retro-computing, electronics repair, education, and hobby projects.
 
 The Rev-C platform combines dedicated hardware, a graphical OLED user interface, and modular MicroPython firmware to provide fast, repeatable testing of common logic devices in a compact desktop instrument.
 
