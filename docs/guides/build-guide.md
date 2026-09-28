@@ -187,11 +187,11 @@ Figure 8 shows the completed top board ready for final inspection.
 
 ---
 
-## Stage 4 – Raspberry Pi Pico
+## Stage 4 – Raspberry Pi Pico 2
 
-Install the Raspberry Pi Pico only after both boards have passed inspection.
+Install the Raspberry Pi Pico 2 only after both boards have passed inspection.
 
-Before fitting the Pico:
+Before fitting the Pico 2:
 
 * Verify there are no shorts between power rails.
 * Check connector alignment.
@@ -201,7 +201,7 @@ Figure 9 shows the correct installation of the Raspberry Pi Pico.
 
 ![Pico installed](../images/build/20-RP2040-install.jpg)
 
-*Figure 9. Raspberry Pi Pico installed.*
+*Figure 9. Raspberry Pi Pico 2 installed.*
 
 ---
 
