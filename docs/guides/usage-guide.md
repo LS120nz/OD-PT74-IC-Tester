@@ -251,7 +251,7 @@ Figure 21 - failed IC test.
 
 If a test reports FAIL then the IC did not pass one or more functional checks.
 
-For additional diagnostic information, connect the Raspberry Pi Pico USB port to your computer and view the serial output in Thonny or another serial terminal.
+For additional diagnostic information, connect the Raspberry Pi Pico 2 USB port to your computer and view the serial output in Thonny or another serial terminal.
 
 If the fault is unclear, check the following before retesting:
 
