@@ -19,7 +19,7 @@ No previous experience with MicroPython is required. Simply follow each step in 
 
 Before starting you will need:
 
-- Raspberry Pi Pico RP2040
+- Raspberry Pi Pico 2 RP2040
 - USB cable
 - Computer running Windows, Linux or macOS
 - Thonny IDE installed
@@ -41,7 +41,7 @@ Before starting you will need:
 
 If Thonny is not already installed, download and install it before continuing.
 
-Once installed, connect the Raspberry Pi Pico to your computer using a USB cable.
+Once installed, connect the Raspberry Pi Pico 2 to your computer using a USB cable.
 
 ![Thonny Start](../images/firmware/01-thonny-blank.jpg)
 
@@ -88,7 +88,7 @@ Expand:
 Ports (COM & LPT)
 
 
-Verify that the Raspberry Pi Pico serial port is listed.
+Verify that the Raspberry Pi Pico 2 serial port is listed.
 
 ![USB Port](../images/firmware/05-usb-port.jpg)
 
@@ -133,7 +133,7 @@ Figure 9 - main.py loaded into thonny.
 
 Select **File → Save As...**
 
-Choose **Raspberry Pi Pico**.
+Choose **Raspberry Pi Pico 2**.
 
 
 Do **not** save the file back to your PC.
@@ -161,11 +161,11 @@ Select the file.
 
 Figure 12 - select ssd1306.py.
 
-Save it to the Raspberry Pi Pico.
+Save it to the Raspberry Pi Pico 2.
 
 ![Save OLED Driver](../images/firmware/13-save-ssd1306.jpg)
 
-Figure 13 - save ssd1306.py to the Pico.
+Figure 13 - save ssd1306.py to the Pico 2.
 
 ---
 
@@ -197,7 +197,7 @@ If the OLED display does not initialise, confirm that:
 - `main.py` has been copied.
 - `ssd1306.py` has been copied.
 - The correct interpreter is selected.
-- The Pico is connected.
+- The Pico 2 is connected.
 
 ---
 
