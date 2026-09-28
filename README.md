@@ -68,7 +68,7 @@ For detailed installation instructions, see the **Documentation Index** or jump 
 
 ## Key Features
 
-* Raspberry Pi Pico (RP2040) based design
+* Raspberry Pi Pico 2 (RP2040) based design
 * Supports standard 14-, 16- and 20-pin DIP packages
 * Compatible with common 74LS, 74HC and 74HCT logic families
 * Automatic package detection
@@ -105,7 +105,7 @@ For detailed installation instructions, see the **Documentation Index** or jump 
 
 | Feature      | Specification                            |
 | ------------ | ---------------------------------------- |
-| MCU          | Raspberry Pi Pico (RP2040)               |
+| MCU          | Raspberry Pi Pico 2 (RP2040)               |
 | Display      | 128 × 64 SSD1306 OLED                    |
 | DUT Packages | 14, 16 and 20-pin DIP                    |
 | DUT Supply   | 3.3 V / OFF / 5 V                        |
@@ -141,7 +141,7 @@ Designed for through-hole construction using readily available components with a
 
 Rev-C introduces a production-quality hardware platform featuring:
 
-* Raspberry Pi Pico controller
+* Raspberry Pi Pico 2 controller
 * 20-pin ZIF socket
 * 3.3 V / OFF / 5 V DUT power selection
 * Package selection for 14-, 16- and 20-pin devices
@@ -206,7 +206,7 @@ Diagnostic information is displayed on both the OLED and the USB serial console.
 ## Getting Started
 
 1. Assemble the hardware.
-2. Install MicroPython on the Raspberry Pi Pico.
+2. Install MicroPython on the Raspberry Pi Pico 2.
 3. Copy the firmware to the Pico.
 4. Power on the tester.
 5. Allow the Power-On Self Test to complete.
