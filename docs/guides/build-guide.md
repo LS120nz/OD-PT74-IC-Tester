@@ -170,7 +170,7 @@ Figure 7 shows the top board after the initial components have been installed.
 
 Figure 8 shows the completed top board ready for final inspection.
 
-![Top board complete](../images/build/35-finished topboard.jpg)
+![Top board complete](../images/build/35-finished-topboard.jpg)
 
 *Figure 8. completed top board assembly.*
 
