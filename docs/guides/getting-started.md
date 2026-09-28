@@ -15,7 +15,7 @@ For more detailed information, see the additional guides in the documentation.
 You will need:
 
 * Rev-C PCB set
-* Raspberry Pi Pico (RP2040)
+* Raspberry Pi Pico 2 (RP2040)
 * All components listed in the Bill of Materials (BOM)
 * USB cable
 * Computer with USB support
@@ -51,7 +51,7 @@ Refer to the **Build Guide** for detailed assembly instructions.
 
 ## Step 2 – Install the firmware
 
-Install the supported version of MicroPython onto the Raspberry Pi Pico, then copy the OD-PT74 firmware files to the board.
+Install the supported version of MicroPython onto the Raspberry Pi Pico 2, then copy the OD-PT74 firmware files to the board.
 
 Copy the project firmware to the Pico by following the Firmware Guide.
 
